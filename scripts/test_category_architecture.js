@@ -129,14 +129,25 @@ it('Legacy English slugs correctly normalize to canonical Azerbaijani slugs', ()
   assert.strictEqual(normalizeCategorySlug('national-instruments'), 'milli-musiqi-aletleri');
   assert.strictEqual(normalizeCategorySlug('audio-equipment'), 'audio-ve-studia');
   assert.strictEqual(normalizeCategorySlug('accessories'), 'kabeller-dayaqlar-aksesuarlar');
+  // Subcategory legacy aliases
+  assert.strictEqual(normalizeCategorySlug('classical-guitars'), 'klassik-gitaralar');
+  assert.strictEqual(normalizeCategorySlug('digital-pianos'), 'elektron-pianolar');
+  assert.strictEqual(normalizeCategorySlug('violins'), 'skripkalar');
+  assert.strictEqual(normalizeCategorySlug('acoustic-drums'), 'akustik-barabanlar');
 });
 
-it('getCategoryBySlug resolves both canonical and legacy slugs', () => {
+it('getCategoryBySlug resolves both canonical and legacy slugs (root and subcategories)', () => {
   const fromCanonical = getCategoryBySlug('gitaralar');
   const fromLegacy = getCategoryBySlug('guitars');
   assert.ok(fromCanonical);
   assert.strictEqual(fromCanonical.slug, 'gitaralar');
   assert.strictEqual(fromCanonical, fromLegacy);
+
+  const subCanonical = getCategoryBySlug('klassik-gitaralar');
+  const subLegacy = getCategoryBySlug('classical-guitars');
+  assert.ok(subCanonical);
+  assert.strictEqual(subCanonical.slug, 'klassik-gitaralar');
+  assert.strictEqual(subCanonical, subLegacy);
 });
 
 it('getParentCategory resolves parent relationships correctly', () => {

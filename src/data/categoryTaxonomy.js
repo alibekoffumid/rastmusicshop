@@ -412,6 +412,7 @@ export const FORBIDDEN_RULES = {
 
 // Mapping of legacy English slugs to new canonical Azerbaijani slugs for seamless backwards compatibility
 export const SLUG_LEGACY_ALIASES = {
+  // Root category legacy slugs
   guitars: "gitaralar",
   keys: "pianolar-ve-klavisler",
   pianos: "pianolar-ve-klavisler",
@@ -427,7 +428,70 @@ export const SLUG_LEGACY_ALIASES = {
   "audio-equipment": "audio-ve-studia",
   audio: "audio-ve-studia",
   studio: "audio-ve-studia",
-  accessories: "kabeller-dayaqlar-aksesuarlar"
+  accessories: "kabeller-dayaqlar-aksesuarlar",
+
+  // Subcategory legacy slugs: Guitars
+  "classical-guitars": "klassik-gitaralar",
+  "acoustic-guitars": "akustik-gitaralar",
+  "electric-guitars": "elektro-gitaralar",
+  "bass-guitars": "bas-gitaralar",
+  "soprano-ukulele": "ukulele-ve-gitaralele",
+  "concert-ukulele": "ukulele-ve-gitaralele",
+  "tenor-ukulele": "ukulele-ve-gitaralele",
+  "electro-classical-guitars": "klassik-gitaralar",
+  "electro-acoustic-guitars": "akustik-gitaralar",
+  "silent-guitars": "klassik-gitaralar",
+
+  // Subcategory legacy slugs: Keys
+  "digital-pianos": "elektron-pianolar",
+  synthesizers: "sintezatorlar",
+  arrangers: "sintezatorlar",
+  "midi-keyboards": "sintezatorlar",
+  "piano-benches": "piano-aksesuarlari",
+
+  // Subcategory legacy slugs: Bowed
+  violins: "skripkalar",
+  cellos: "cello",
+  "double-basses": "kontrabas",
+  mandolins: "tar",
+
+  // Subcategory legacy slugs: Wind
+  flutes: "fleyta",
+  saxophones: "saksofon",
+  clarinets: "klarnet",
+  harmonicas: "melodika-harmonica",
+  trumpets: "truba",
+  trombones: "trombon",
+  "french-horns": "valtorna",
+  mouthpieces: "nefes-aksesuarlari",
+
+  // Subcategory legacy slugs: Percussion
+  "acoustic-drums": "akustik-barabanlar",
+  "electronic-drums": "elektron-barabanlar",
+  cajons: "etnik-perkussiya",
+  "drum-pads": "elektron-barabanlar",
+  cymbals: "baraban-aksesuarlari",
+  sticks: "baraban-aksesuarlari",
+
+  // Subcategory legacy slugs: Audio & Studio
+  "guitar-amps": "kombo-guclendiriciler",
+  "mini-amps": "kombo-guclendiriciler",
+  "drum-amps": "kombo-guclendiriciler",
+  "wireless-systems": "simsiz-oturuculer",
+  headphones: "studiya-qulaqliqlari",
+  "multi-effects": "effekt-pedallari",
+
+  // Subcategory legacy slugs: Accessories
+  cables: "ses-kabelleri",
+  stands: "mikrofon-dinamik-dayaqlari",
+  bags: "gitara-cantalari",
+  strings: "gitara-simleri",
+  capos: "gitara-aksesuarlari",
+  tuners: "gitara-aksesuarlari",
+  metronomes: "alet-not-dayaqlari",
+  "power-supplies": "adapterler-batareyalar",
+  adapters: "stekkerler-perexodnikler"
 };
+
 
 
