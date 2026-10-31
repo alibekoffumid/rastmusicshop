@@ -42,45 +42,8 @@ function generateMigrationSql() {
   lines.push(`END $$;`);
   lines.push(``);
 
-  // 2. Sanitization & Cleaning Rules
-  lines.push(`-- 3. Strict Cleaning: Unlink and archive polluted categories`);
-  lines.push(`-- (Artisans/Masters, Instrument Sizes, Brand names, Raw Materials)`);
-  lines.push(`UPDATE public.products SET subcategory_slug = NULL WHERE subcategory_slug ~* '(teymur|bəxtiyar|sahib|fərhad|fərrux|rövşən|tahir|4/4|3/4|1/2|1/4|qoz|fıstıq|ebonit|dominguez|korg|miles)';`);
-  lines.push(`UPDATE public.categories SET is_archived = true WHERE slug ~* '(teymur|bəxtiyar|sahib|fərhad|fərrux|rövşən|tahir|4-4|3-4|1-2|1-4|qoz|fistiq|ebonit|dominguez|korg|miles)';`);
-  lines.push(``);
-
-  lines.push(`-- 3.1 Migrate legacy category slugs in products to canonical Azerbaijani slugs`);
-  lines.push(`UPDATE public.products SET category_slug = 'gitaralar' WHERE category_slug IN ('guitars', 'gitara', 'guitar');`);
-  lines.push(`UPDATE public.products SET category_slug = 'pianolar-ve-klavisler' WHERE category_slug IN ('keys', 'pianos', 'keyboards');`);
-  lines.push(`UPDATE public.products SET category_slug = 'yayli-aletler' WHERE category_slug IN ('bowed', 'string-instruments', 'strings');`);
-  lines.push(`UPDATE public.products SET category_slug = 'nefes-aletleri' WHERE category_slug IN ('wind-instruments', 'winds');`);
-  lines.push(`UPDATE public.products SET category_slug = 'zerb-aletleri' WHERE category_slug IN ('percussion', 'drums');`);
-  lines.push(`UPDATE public.products SET category_slug = 'milli-musiqi-aletleri' WHERE category_slug IN ('national-instruments', 'national');`);
-  lines.push(`UPDATE public.products SET category_slug = 'audio-ve-studia' WHERE category_slug IN ('audio-equipment', 'audio', 'studio');`);
-  lines.push(`UPDATE public.products SET category_slug = 'kabeller-dayaqlar-aksesuarlar' WHERE category_slug IN ('accessories');`);
-  lines.push(``);
-
-  lines.push(`-- 3.2 Migrate legacy subcategory slugs in products to canonical Azerbaijani slugs`);
-  lines.push(`UPDATE public.products SET subcategory_slug = 'klassik-gitaralar' WHERE subcategory_slug IN ('classical-guitars', 'klassik');`);
-  lines.push(`UPDATE public.products SET subcategory_slug = 'akustik-gitaralar' WHERE subcategory_slug IN ('acoustic-guitars', 'akustik');`);
-  lines.push(`UPDATE public.products SET subcategory_slug = 'elektro-gitaralar' WHERE subcategory_slug IN ('electric-guitars');`);
-  lines.push(`UPDATE public.products SET subcategory_slug = 'bas-gitaralar' WHERE subcategory_slug IN ('bass-guitars');`);
-  lines.push(`UPDATE public.products SET subcategory_slug = 'elektro-klassik-eq' WHERE subcategory_slug IN ('electro-classical-guitars');`);
-  lines.push(`UPDATE public.products SET subcategory_slug = 'elektro-akustik-eq' WHERE subcategory_slug IN ('electro-acoustic-guitars');`);
-  lines.push(`UPDATE public.products SET subcategory_slug = 'elektron-pianolar' WHERE subcategory_slug IN ('digital-pianos');`);
-  lines.push(`UPDATE public.products SET subcategory_slug = 'sintezatorlar' WHERE subcategory_slug IN ('synthesizers');`);
-  lines.push(`UPDATE public.products SET subcategory_slug = 'skripkalar' WHERE subcategory_slug IN ('violins');`);
-  lines.push(`UPDATE public.products SET subcategory_slug = 'cello' WHERE subcategory_slug IN ('cellos');`);
-  lines.push(`UPDATE public.products SET subcategory_slug = 'kontrabas' WHERE subcategory_slug IN ('double-basses');`);
-  lines.push(`UPDATE public.products SET subcategory_slug = 'elektron-barabanlar' WHERE subcategory_slug IN ('electronic-drums');`);
-  lines.push(`UPDATE public.products SET subcategory_slug = 'ses-kabelleri' WHERE subcategory_slug IN ('cables');`);
-  lines.push(`UPDATE public.products SET subcategory_slug = 'piano-oturacaqlari' WHERE subcategory_slug IN ('piano-benches');`);
-  lines.push(`UPDATE public.products SET subcategory_slug = 'studiya-qulaqliqlari' WHERE subcategory_slug IN ('headphones');`);
-  lines.push(`UPDATE public.products SET subcategory_slug = 'adapterler-batareyalar' WHERE subcategory_slug IN ('adapters', 'powerbanks');`);
-  lines.push(``);
-
-  // 3. Level 1 - Root Categories
-  lines.push(`-- 4. Idempotent Upsert: Root Categories (Level 1)`);
+  // 2. Level 1 - Root Categories
+  lines.push(`-- 3. Idempotent Upsert: Root Categories (Level 1)`);
   for (const root of CATEGORY_TAXONOMY) {
     const slug = escapeSql(root.slug);
     const name = escapeSql(root.name.az);
@@ -102,8 +65,8 @@ function generateMigrationSql() {
     lines.push(``);
   }
 
-  // 4. Level 2 - Subcategories
-  lines.push(`-- 5. Idempotent Upsert: Subcategories (Level 2)`);
+  // 3. Level 2 - Subcategories
+  lines.push(`-- 4. Idempotent Upsert: Subcategories (Level 2)`);
   for (const root of CATEGORY_TAXONOMY) {
     if (!root.children || root.children.length === 0) continue;
     lines.push(`-- Subcategories of ${root.slug}`);
@@ -130,8 +93,8 @@ function generateMigrationSql() {
     }
   }
 
-  // 5. Level 3 - Sub-subcategories
-  lines.push(`-- 6. Idempotent Upsert: Sub-subcategories (Level 3)`);
+  // 4. Level 3 - Sub-subcategories
+  lines.push(`-- 5. Idempotent Upsert: Sub-subcategories (Level 3)`);
   for (const root of CATEGORY_TAXONOMY) {
     if (!root.children) continue;
     for (const sub of root.children) {
@@ -160,6 +123,46 @@ function generateMigrationSql() {
       }
     }
   }
+
+  // 5. Product Migration & Cleaning (Safe now because all canonical category slugs exist in categories table)
+  lines.push(`-- 6. Strict Cleaning & Product Slug Migration`);
+  lines.push(`-- Unlink polluted subcategories from products`);
+  lines.push(`UPDATE public.products SET subcategory_slug = NULL WHERE subcategory_slug ~* '(teymur|bəxtiyar|sahib|fərhad|fərrux|rövşən|tahir|4/4|3/4|1/2|1/4|qoz|fıstıq|ebonit|dominguez|korg|miles)';`);
+  lines.push(``);
+
+  lines.push(`-- 6.1 Migrate legacy category slugs in products to canonical Azerbaijani slugs`);
+  lines.push(`UPDATE public.products SET category_slug = 'gitaralar' WHERE category_slug IN ('guitars', 'gitara', 'guitar');`);
+  lines.push(`UPDATE public.products SET category_slug = 'pianolar-ve-klavisler' WHERE category_slug IN ('keys', 'pianos', 'keyboards');`);
+  lines.push(`UPDATE public.products SET category_slug = 'yayli-aletler' WHERE category_slug IN ('bowed', 'string-instruments', 'strings');`);
+  lines.push(`UPDATE public.products SET category_slug = 'nefes-aletleri' WHERE category_slug IN ('wind-instruments', 'winds');`);
+  lines.push(`UPDATE public.products SET category_slug = 'zerb-aletleri' WHERE category_slug IN ('percussion', 'drums');`);
+  lines.push(`UPDATE public.products SET category_slug = 'milli-musiqi-aletleri' WHERE category_slug IN ('national-instruments', 'national');`);
+  lines.push(`UPDATE public.products SET category_slug = 'audio-ve-studia' WHERE category_slug IN ('audio-equipment', 'audio', 'studio');`);
+  lines.push(`UPDATE public.products SET category_slug = 'kabeller-dayaqlar-aksesuarlar' WHERE category_slug IN ('accessories');`);
+  lines.push(``);
+
+  lines.push(`-- 6.2 Migrate legacy subcategory slugs in products to canonical Azerbaijani slugs`);
+  lines.push(`UPDATE public.products SET subcategory_slug = 'klassik-gitaralar' WHERE subcategory_slug IN ('classical-guitars', 'klassik');`);
+  lines.push(`UPDATE public.products SET subcategory_slug = 'akustik-gitaralar' WHERE subcategory_slug IN ('acoustic-guitars', 'akustik');`);
+  lines.push(`UPDATE public.products SET subcategory_slug = 'elektro-gitaralar' WHERE subcategory_slug IN ('electric-guitars');`);
+  lines.push(`UPDATE public.products SET subcategory_slug = 'bas-gitaralar' WHERE subcategory_slug IN ('bass-guitars');`);
+  lines.push(`UPDATE public.products SET subcategory_slug = 'elektro-klassik-eq' WHERE subcategory_slug IN ('electro-classical-guitars');`);
+  lines.push(`UPDATE public.products SET subcategory_slug = 'elektro-akustik-eq' WHERE subcategory_slug IN ('electro-acoustic-guitars');`);
+  lines.push(`UPDATE public.products SET subcategory_slug = 'elektron-pianolar' WHERE subcategory_slug IN ('digital-pianos');`);
+  lines.push(`UPDATE public.products SET subcategory_slug = 'sintezatorlar' WHERE subcategory_slug IN ('synthesizers');`);
+  lines.push(`UPDATE public.products SET subcategory_slug = 'skripkalar' WHERE subcategory_slug IN ('violins');`);
+  lines.push(`UPDATE public.products SET subcategory_slug = 'cello' WHERE subcategory_slug IN ('cellos');`);
+  lines.push(`UPDATE public.products SET subcategory_slug = 'kontrabas' WHERE subcategory_slug IN ('double-basses');`);
+  lines.push(`UPDATE public.products SET subcategory_slug = 'elektron-barabanlar' WHERE subcategory_slug IN ('electronic-drums');`);
+  lines.push(`UPDATE public.products SET subcategory_slug = 'ses-kabelleri' WHERE subcategory_slug IN ('cables');`);
+  lines.push(`UPDATE public.products SET subcategory_slug = 'piano-oturacaqlari' WHERE subcategory_slug IN ('piano-benches');`);
+  lines.push(`UPDATE public.products SET subcategory_slug = 'studiya-qulaqliqlari' WHERE subcategory_slug IN ('headphones');`);
+  lines.push(`UPDATE public.products SET subcategory_slug = 'adapterler-batareyalar' WHERE subcategory_slug IN ('adapters', 'powerbanks');`);
+  lines.push(``);
+
+  lines.push(`-- 6.3 Archive polluted/forbidden categories in categories table`);
+  lines.push(`UPDATE public.categories SET is_archived = true WHERE slug ~* '(teymur|bəxtiyar|sahib|fərhad|fərrux|rövşən|tahir|4-4|3-4|1-2|1-4|qoz|fistiq|ebonit|dominguez|korg|miles)';`);
+  lines.push(``);
 
   // 6. Security and RLS
   lines.push(`-- 7. RLS Configuration: Ensure Public SELECT is enabled`);

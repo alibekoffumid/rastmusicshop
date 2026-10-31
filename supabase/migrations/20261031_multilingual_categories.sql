@@ -22,40 +22,7 @@ BEGIN
   END IF;
 END $$;
 
--- 3. Strict Cleaning: Unlink and archive polluted categories
--- (Artisans/Masters, Instrument Sizes, Brand names, Raw Materials)
-UPDATE public.products SET subcategory_slug = NULL WHERE subcategory_slug ~* '(teymur|bəxtiyar|sahib|fərhad|fərrux|rövşən|tahir|4/4|3/4|1/2|1/4|qoz|fıstıq|ebonit|dominguez|korg|miles)';
-UPDATE public.categories SET is_archived = true WHERE slug ~* '(teymur|bəxtiyar|sahib|fərhad|fərrux|rövşən|tahir|4-4|3-4|1-2|1-4|qoz|fistiq|ebonit|dominguez|korg|miles)';
-
--- 3.1 Migrate legacy category slugs in products to canonical Azerbaijani slugs
-UPDATE public.products SET category_slug = 'gitaralar' WHERE category_slug IN ('guitars', 'gitara', 'guitar');
-UPDATE public.products SET category_slug = 'pianolar-ve-klavisler' WHERE category_slug IN ('keys', 'pianos', 'keyboards');
-UPDATE public.products SET category_slug = 'yayli-aletler' WHERE category_slug IN ('bowed', 'string-instruments', 'strings');
-UPDATE public.products SET category_slug = 'nefes-aletleri' WHERE category_slug IN ('wind-instruments', 'winds');
-UPDATE public.products SET category_slug = 'zerb-aletleri' WHERE category_slug IN ('percussion', 'drums');
-UPDATE public.products SET category_slug = 'milli-musiqi-aletleri' WHERE category_slug IN ('national-instruments', 'national');
-UPDATE public.products SET category_slug = 'audio-ve-studia' WHERE category_slug IN ('audio-equipment', 'audio', 'studio');
-UPDATE public.products SET category_slug = 'kabeller-dayaqlar-aksesuarlar' WHERE category_slug IN ('accessories');
-
--- 3.2 Migrate legacy subcategory slugs in products to canonical Azerbaijani slugs
-UPDATE public.products SET subcategory_slug = 'klassik-gitaralar' WHERE subcategory_slug IN ('classical-guitars', 'klassik');
-UPDATE public.products SET subcategory_slug = 'akustik-gitaralar' WHERE subcategory_slug IN ('acoustic-guitars', 'akustik');
-UPDATE public.products SET subcategory_slug = 'elektro-gitaralar' WHERE subcategory_slug IN ('electric-guitars');
-UPDATE public.products SET subcategory_slug = 'bas-gitaralar' WHERE subcategory_slug IN ('bass-guitars');
-UPDATE public.products SET subcategory_slug = 'elektro-klassik-eq' WHERE subcategory_slug IN ('electro-classical-guitars');
-UPDATE public.products SET subcategory_slug = 'elektro-akustik-eq' WHERE subcategory_slug IN ('electro-acoustic-guitars');
-UPDATE public.products SET subcategory_slug = 'elektron-pianolar' WHERE subcategory_slug IN ('digital-pianos');
-UPDATE public.products SET subcategory_slug = 'sintezatorlar' WHERE subcategory_slug IN ('synthesizers');
-UPDATE public.products SET subcategory_slug = 'skripkalar' WHERE subcategory_slug IN ('violins');
-UPDATE public.products SET subcategory_slug = 'cello' WHERE subcategory_slug IN ('cellos');
-UPDATE public.products SET subcategory_slug = 'kontrabas' WHERE subcategory_slug IN ('double-basses');
-UPDATE public.products SET subcategory_slug = 'elektron-barabanlar' WHERE subcategory_slug IN ('electronic-drums');
-UPDATE public.products SET subcategory_slug = 'ses-kabelleri' WHERE subcategory_slug IN ('cables');
-UPDATE public.products SET subcategory_slug = 'piano-oturacaqlari' WHERE subcategory_slug IN ('piano-benches');
-UPDATE public.products SET subcategory_slug = 'studiya-qulaqliqlari' WHERE subcategory_slug IN ('headphones');
-UPDATE public.products SET subcategory_slug = 'adapterler-batareyalar' WHERE subcategory_slug IN ('adapters', 'powerbanks');
-
--- 4. Idempotent Upsert: Root Categories (Level 1)
+-- 3. Idempotent Upsert: Root Categories (Level 1)
 INSERT INTO public.categories (slug, name, name_az, name_ru, name_en, parent_id, order_index, is_archived)
 VALUES ('gitaralar', 'Gitaralar', 'Gitaralar', 'Гитары', 'Guitars', NULL, 1, false)
 ON CONFLICT (slug) DO UPDATE SET
@@ -144,7 +111,7 @@ ON CONFLICT (slug) DO UPDATE SET
   order_index = EXCLUDED.order_index,
   is_archived = false;
 
--- 5. Idempotent Upsert: Subcategories (Level 2)
+-- 4. Idempotent Upsert: Subcategories (Level 2)
 -- Subcategories of gitaralar
 INSERT INTO public.categories (slug, name, name_az, name_ru, name_en, parent_id, order_index, is_archived)
 VALUES ('klassik-gitaralar', 'Klassik gitaralar', 'Klassik gitaralar', 'Классические гитары', 'Classical Guitars', (SELECT id FROM public.categories WHERE slug = 'gitaralar' LIMIT 1), 1, false)
@@ -725,7 +692,7 @@ ON CONFLICT (slug) DO UPDATE SET
   order_index = EXCLUDED.order_index,
   is_archived = false;
 
--- 6. Idempotent Upsert: Sub-subcategories (Level 3)
+-- 5. Idempotent Upsert: Sub-subcategories (Level 3)
 -- Children of klassik-gitaralar (parent: gitaralar)
 INSERT INTO public.categories (slug, name, name_az, name_ru, name_en, parent_id, order_index, is_archived)
 VALUES ('standart-klassik', 'Standart klassik gitaralar', 'Standart klassik gitaralar', 'Стандартные классические гитары', 'Standard Classical Guitars', (SELECT id FROM public.categories WHERE slug = 'klassik-gitaralar' LIMIT 1), 1, false)
@@ -1554,6 +1521,41 @@ ON CONFLICT (slug) DO UPDATE SET
   parent_id = (SELECT id FROM public.categories WHERE slug = 'mikrofonlar' LIMIT 1),
   order_index = EXCLUDED.order_index,
   is_archived = false;
+
+-- 6. Strict Cleaning & Product Slug Migration
+-- Unlink polluted subcategories from products
+UPDATE public.products SET subcategory_slug = NULL WHERE subcategory_slug ~* '(teymur|bəxtiyar|sahib|fərhad|fərrux|rövşən|tahir|4/4|3/4|1/2|1/4|qoz|fıstıq|ebonit|dominguez|korg|miles)';
+
+-- 6.1 Migrate legacy category slugs in products to canonical Azerbaijani slugs
+UPDATE public.products SET category_slug = 'gitaralar' WHERE category_slug IN ('guitars', 'gitara', 'guitar');
+UPDATE public.products SET category_slug = 'pianolar-ve-klavisler' WHERE category_slug IN ('keys', 'pianos', 'keyboards');
+UPDATE public.products SET category_slug = 'yayli-aletler' WHERE category_slug IN ('bowed', 'string-instruments', 'strings');
+UPDATE public.products SET category_slug = 'nefes-aletleri' WHERE category_slug IN ('wind-instruments', 'winds');
+UPDATE public.products SET category_slug = 'zerb-aletleri' WHERE category_slug IN ('percussion', 'drums');
+UPDATE public.products SET category_slug = 'milli-musiqi-aletleri' WHERE category_slug IN ('national-instruments', 'national');
+UPDATE public.products SET category_slug = 'audio-ve-studia' WHERE category_slug IN ('audio-equipment', 'audio', 'studio');
+UPDATE public.products SET category_slug = 'kabeller-dayaqlar-aksesuarlar' WHERE category_slug IN ('accessories');
+
+-- 6.2 Migrate legacy subcategory slugs in products to canonical Azerbaijani slugs
+UPDATE public.products SET subcategory_slug = 'klassik-gitaralar' WHERE subcategory_slug IN ('classical-guitars', 'klassik');
+UPDATE public.products SET subcategory_slug = 'akustik-gitaralar' WHERE subcategory_slug IN ('acoustic-guitars', 'akustik');
+UPDATE public.products SET subcategory_slug = 'elektro-gitaralar' WHERE subcategory_slug IN ('electric-guitars');
+UPDATE public.products SET subcategory_slug = 'bas-gitaralar' WHERE subcategory_slug IN ('bass-guitars');
+UPDATE public.products SET subcategory_slug = 'elektro-klassik-eq' WHERE subcategory_slug IN ('electro-classical-guitars');
+UPDATE public.products SET subcategory_slug = 'elektro-akustik-eq' WHERE subcategory_slug IN ('electro-acoustic-guitars');
+UPDATE public.products SET subcategory_slug = 'elektron-pianolar' WHERE subcategory_slug IN ('digital-pianos');
+UPDATE public.products SET subcategory_slug = 'sintezatorlar' WHERE subcategory_slug IN ('synthesizers');
+UPDATE public.products SET subcategory_slug = 'skripkalar' WHERE subcategory_slug IN ('violins');
+UPDATE public.products SET subcategory_slug = 'cello' WHERE subcategory_slug IN ('cellos');
+UPDATE public.products SET subcategory_slug = 'kontrabas' WHERE subcategory_slug IN ('double-basses');
+UPDATE public.products SET subcategory_slug = 'elektron-barabanlar' WHERE subcategory_slug IN ('electronic-drums');
+UPDATE public.products SET subcategory_slug = 'ses-kabelleri' WHERE subcategory_slug IN ('cables');
+UPDATE public.products SET subcategory_slug = 'piano-oturacaqlari' WHERE subcategory_slug IN ('piano-benches');
+UPDATE public.products SET subcategory_slug = 'studiya-qulaqliqlari' WHERE subcategory_slug IN ('headphones');
+UPDATE public.products SET subcategory_slug = 'adapterler-batareyalar' WHERE subcategory_slug IN ('adapters', 'powerbanks');
+
+-- 6.3 Archive polluted/forbidden categories in categories table
+UPDATE public.categories SET is_archived = true WHERE slug ~* '(teymur|bəxtiyar|sahib|fərhad|fərrux|rövşən|tahir|4-4|3-4|1-2|1-4|qoz|fistiq|ebonit|dominguez|korg|miles)';
 
 -- 7. RLS Configuration: Ensure Public SELECT is enabled
 ALTER TABLE public.categories ENABLE ROW LEVEL SECURITY;
