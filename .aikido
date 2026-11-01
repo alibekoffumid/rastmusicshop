@@ -1,0 +1,15 @@
+# Aikido Security Configuration
+# https://docs.aikido.dev
+
+exclude:
+  paths:
+    - package-lock.json
+    - original_bundle.js
+    - formatted_bundle.js
+
+ignore:
+  cves:
+    CVE-2026-53666:
+      reason: "Client-side SPA, SSR hydration injection not applicable"
+    AIKIDO-2026-740941:
+      reason: "Client-side SPA, SSR hydration injection not applicable"

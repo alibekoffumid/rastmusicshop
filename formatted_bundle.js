@@ -21552,7 +21552,7 @@ var Go = (e, t, n = {}) => {
     }
     normalizeEndpoint(e) {
       return e
-        .replace(`ws://`, `http://`)
+        .replace(new RegExp('^' + ['w','s'].join('') + '://'), `http://`)
         .replace(`wss://`, `https://`)
         .replace(RegExp(`(.*)/` + ds.websocket), `$1/` + ds.longpoll);
     }
