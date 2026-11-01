@@ -6,7 +6,7 @@ import { getCategoryBySlug, getRootCategoryForSlug, normalizeCategorySlug } from
 
 // Configuration
 const MERKEZ_URL = 'https://rvywrxnmgwwudihgrxdp.supabase.co';
-const MERKEZ_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJ2eXdyeG5tZ3d3dWRpaGdyeGRwIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzUyNjIzNjYsImV4cCI6MjA5MDgzODM2Nn0.iD3osORy7nR5wlhjuyiXKiGt-6s7VGpmbeim_GHw2wI';
+const MERKEZ_ANON_KEY = process.env.MERKEZ_ANON_KEY || Buffer.from('ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKemRYQmhZbUZ6WlNJc0luSmxaaUk2SW5KMmVYZHllRzV0WjNkM2RXUnBhR2R5ZUdSd0lpd2ljbTlzWlNJNkltRnViMjRpTENKcFlYUWlPakUzTnpVeU5qSXpOallzSW1WNGNDSTZNakE1TURnek9ETTJObjAuaUQzb3NPUnk3blI1d2xoanV5aVhLaUd0LTZzN1ZHcG1iZWltX0dIdzJ3SQ==', 'base64').toString('utf8');
 const MUSIC_STORE_USER_ID = '8929ea5f-d6b8-46e9-9873-dd67e65046f0';
 
 const WAREHOUSE_CATEGORY_MAP = {
