@@ -12,7 +12,7 @@ const MUSIC_STORE_USER_ID = '8929ea5f-d6b8-46e9-9873-dd67e65046f0';
 const WAREHOUSE_CATEGORY_MAP = {
   // === 1. GITARALAR ===
   "GITARALAR -> AKUSTIK GITARALAR": "akustik-gitaralar",
-  "AKUSTIK GITARALAR -> EQ AKUSTIK GITARALAR": "elektro-akustik-gitaralar",
+  "AKUSTIK GITARALAR -> EQ AKUSTIK GITARALAR": "elektro-akustik-eq",
   "AKUSTIK GITARALAR -> AKUSTIK GITARA": "akustik-gitaralar",
   "AKUSTIK GITARALAR -> *": "akustik-gitaralar",
   "GITARALAR -> ELEKTRO GITARALAR": "elektro-gitaralar",
@@ -20,7 +20,7 @@ const WAREHOUSE_CATEGORY_MAP = {
   "GITARALAR -> BASS GITARALAR": "bas-gitaralar",
   "BASS GITARALAR -> *": "bas-gitaralar",
   "GITARALAR -> KLASSIK GITARALAR": "klassik-gitaralar",
-  "KLASSIK GITARALAR -> EQ KLASSIK GITARALAR": "elektro-klassik-gitaralar",
+  "KLASSIK GITARALAR -> EQ KLASSIK GITARALAR": "elektro-klassik-eq",
   "KLASSIK GITARALAR -> *": "klassik-gitaralar",
   "GITARALAR -> UKELELE": "ukulele-ve-gitaralele",
   "UKELELE -> *": "ukulele-ve-gitaralele",
@@ -197,8 +197,8 @@ const WAREHOUSE_CATEGORY_MAP = {
   "SOUND KARTLAR": "ses-kartlari-mikserler",
   "MIKSERLER -> *": "ses-kartlari-mikserler",
   "MIKSERLER": "ses-kartlari-mikserler",
-  "QULAQLIQLAR -> *": "studia-qulaqliqlari",
-  "QULAQLIQLAR": "studia-qulaqliqlari",
+  "QULAQLIQLAR -> *": "studiya-qulaqliqlari",
+  "QULAQLIQLAR": "studiya-qulaqliqlari",
 
   // === 8. KABELLER, DAYAQLAR VE AKSESUARLAR ===
   "SES KABELLERI -> *": "ses-kabelleri",
@@ -403,7 +403,7 @@ function resolveSubcategorySlug(path, name) {
 
   // Fallback heuristics based on combined text
   const combined = `${normPath} ${normalizeKey(name)}`;
-  if (combined.includes('QULAQCIQ') || combined.includes('HEADPHONE')) return 'studia-qulaqliqlari';
+  if (combined.includes('QULAQCIQ') || combined.includes('HEADPHONE')) return 'studiya-qulaqliqlari';
   if (/\b(?:PA[- ]?\d{3,4}|PSR[- ]?[A-Z0-9]+|SYNTH|KEYBOARD)\b/i.test(name)) return 'sintezatorlar';
   if (combined.includes('SKRIPKA') || combined.includes('CELLO')) {
     if (combined.includes('SMICOK') || combined.includes('SMC') || combined.includes('KANIFOL') || combined.includes('MOSTIK')) {
