@@ -31,15 +31,17 @@ function generateMigrationSql() {
   lines.push(`ALTER TABLE public.categories ADD COLUMN IF NOT EXISTS order_index INTEGER DEFAULT 0;`);
   lines.push(``);
 
-  lines.push(`-- 2. Ensure unique constraint on slug`);
-  lines.push(`DO $$`);
+  lines.push(`-- 2. Deduplicate existing categories and ensure unique index on slug`);
+  lines.push(`DELETE FROM public.categories a USING public.categories b WHERE a.ctid < b.ctid AND a.slug = b.slug;`);
+  lines.push(`CREATE UNIQUE INDEX IF NOT EXISTS categories_slug_unique ON public.categories(slug);`);
+  lines.push(`DO $`);
   lines.push(`BEGIN`);
   lines.push(`  IF NOT EXISTS (`);
   lines.push(`    SELECT 1 FROM pg_constraint WHERE conname = 'categories_slug_unique'`);
   lines.push(`  ) THEN`);
-  lines.push(`    ALTER TABLE public.categories ADD CONSTRAINT categories_slug_unique UNIQUE (slug);`);
+  lines.push(`    ALTER TABLE public.categories ADD CONSTRAINT categories_slug_unique UNIQUE USING INDEX categories_slug_unique;`);
   lines.push(`  END IF;`);
-  lines.push(`END $$;`);
+  lines.push(`END $;`);
   lines.push(``);
 
   // 2. Level 1 - Root Categories

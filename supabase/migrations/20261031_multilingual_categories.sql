@@ -12,15 +12,17 @@ ALTER TABLE public.categories ADD COLUMN IF NOT EXISTS name_ru TEXT;
 ALTER TABLE public.categories ADD COLUMN IF NOT EXISTS name_en TEXT;
 ALTER TABLE public.categories ADD COLUMN IF NOT EXISTS order_index INTEGER DEFAULT 0;
 
--- 2. Ensure unique constraint on slug
-DO $$
+-- 2. Deduplicate existing categories and ensure unique index on slug
+DELETE FROM public.categories a USING public.categories b WHERE a.ctid < b.ctid AND a.slug = b.slug;
+CREATE UNIQUE INDEX IF NOT EXISTS categories_slug_unique ON public.categories(slug);
+DO $
 BEGIN
   IF NOT EXISTS (
     SELECT 1 FROM pg_constraint WHERE conname = 'categories_slug_unique'
   ) THEN
-    ALTER TABLE public.categories ADD CONSTRAINT categories_slug_unique UNIQUE (slug);
+    ALTER TABLE public.categories ADD CONSTRAINT categories_slug_unique UNIQUE USING INDEX categories_slug_unique;
   END IF;
-END $$;
+END $;
 
 -- 3. Idempotent Upsert: Root Categories (Level 1)
 INSERT INTO public.categories (slug, name, name_az, name_ru, name_en, parent_id, order_index, is_archived)
@@ -214,7 +216,7 @@ ON CONFLICT (slug) DO UPDATE SET
   is_archived = false;
 
 INSERT INTO public.categories (slug, name, name_az, name_ru, name_en, parent_id, order_index, is_archived)
-VALUES ('qanun-ve-ud', 'Qanun və ud', 'Qanun və ud', 'Канон и уд', 'Qanun & Oud', (SELECT id FROM public.categories WHERE slug = 'milli-musiqi-aletleri' LIMIT 1), 4, false)
+VALUES ('qanun-ve-ud', 'Kanon və ud', 'Kanon və ud', 'Канон и уд', 'Kanon & Oud', (SELECT id FROM public.categories WHERE slug = 'milli-musiqi-aletleri' LIMIT 1), 4, false)
 ON CONFLICT (slug) DO UPDATE SET
   name = EXCLUDED.name,
   name_az = EXCLUDED.name_az,
@@ -1165,7 +1167,7 @@ ON CONFLICT (slug) DO UPDATE SET
 
 -- Children of qanun-ve-ud (parent: milli-musiqi-aletleri)
 INSERT INTO public.categories (slug, name, name_az, name_ru, name_en, parent_id, order_index, is_archived)
-VALUES ('qanun', 'Qanun', 'Qanun', 'Канон (Канун)', 'Qanun (Kanun)', (SELECT id FROM public.categories WHERE slug = 'qanun-ve-ud' LIMIT 1), 1, false)
+VALUES ('qanun', 'Kanon', 'Kanon', 'Канон (Канун)', 'Kanon (Kanun)', (SELECT id FROM public.categories WHERE slug = 'qanun-ve-ud' LIMIT 1), 1, false)
 ON CONFLICT (slug) DO UPDATE SET
   name = EXCLUDED.name,
   name_az = EXCLUDED.name_az,
@@ -1187,7 +1189,7 @@ ON CONFLICT (slug) DO UPDATE SET
   is_archived = false;
 
 INSERT INTO public.categories (slug, name, name_az, name_ru, name_en, parent_id, order_index, is_archived)
-VALUES ('qanun-aksesuarlari', 'Qanun aksesuarları (Simlər, mizrab, üskük, açar)', 'Qanun aksesuarları (Simlər, mizrab, üskük, açar)', 'Аксессуары для канона (струны, плектры, наперстки, ключ)', 'Qanun Accessories (Strings, Picks, Rings, Key)', (SELECT id FROM public.categories WHERE slug = 'qanun-ve-ud' LIMIT 1), 3, false)
+VALUES ('qanun-aksesuarlari', 'Kanon aksesuarları (Simlər, mizrab, üskük, açar)', 'Kanon aksesuarları (Simlər, mizrab, üskük, açar)', 'Аксессуары для канона (струны, плектры, наперстки, ключ)', 'Kanon Accessories (Strings, Picks, Rings, Key)', (SELECT id FROM public.categories WHERE slug = 'qanun-ve-ud' LIMIT 1), 3, false)
 ON CONFLICT (slug) DO UPDATE SET
   name = EXCLUDED.name,
   name_az = EXCLUDED.name_az,

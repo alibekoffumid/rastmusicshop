@@ -441,6 +441,8 @@ export const SLUG_LEGACY_ALIASES = {
   "electro-classical-guitars": "klassik-gitaralar",
   "electro-acoustic-guitars": "akustik-gitaralar",
   "silent-guitars": "klassik-gitaralar",
+  "elektro-klassik-eq": "klassik-gitaralar",
+  "elektro-akustik-eq": "akustik-gitaralar",
 
   // Subcategory legacy slugs: Keys
   "digital-pianos": "elektron-pianolar",
@@ -448,21 +450,31 @@ export const SLUG_LEGACY_ALIASES = {
   arrangers: "sintezatorlar",
   "midi-keyboards": "sintezatorlar",
   "piano-benches": "piano-aksesuarlari",
+  "piano-oturacaqlari": "piano-aksesuarlari",
 
   // Subcategory legacy slugs: Bowed
   violins: "skripkalar",
   cellos: "cello",
   "double-basses": "kontrabas",
   mandolins: "tar",
+  banjo: "tar",
+  chinrests: "yayli-alet-aksesuarlari",
+  bows: "yayli-alet-aksesuarlari",
+  mutes: "yayli-alet-aksesuarlari",
 
   // Subcategory legacy slugs: Wind
   flutes: "fleyta",
   saxophones: "saksofon",
   clarinets: "klarnet",
   harmonicas: "melodika-harmonica",
-  trumpets: "truba",
-  trombones: "trombon",
-  "french-horns": "valtorna",
+  trumpets: "truba-trombon",
+  trombones: "truba-trombon",
+  truba: "truba-trombon",
+  trombon: "truba-trombon",
+  oboes: "valtorna-qoboy",
+  "french-horns": "valtorna-qoboy",
+  valtorna: "valtorna-qoboy",
+  qoboy: "valtorna-qoboy",
   mouthpieces: "nefes-aksesuarlari",
 
   // Subcategory legacy slugs: Percussion
@@ -491,12 +503,14 @@ export const SLUG_LEGACY_ALIASES = {
   metronomes: "alet-not-dayaqlari",
   "power-supplies": "adapterler-batareyalar",
   adapters: "stekkerler-perexodnikler",
+  straps: "gitara-aksesuarlari",
+  humidifiers: "gitara-aksesuarlari",
+  covers: "gitara-cantalari",
+  pedals: "piano-aksesuarlari",
+  "guitar-electronics": "gitara-aksesuarlari",
 
   // Aliases for Kanon
   kanon: "qanun",
   "kanon-ve-ud": "qanun-ve-ud",
   kanun: "qanun"
 };
-
-
-

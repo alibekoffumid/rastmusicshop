@@ -17,7 +17,7 @@ if (fs.existsSync(envPath)) {
     if (!trimmed || trimmed.startsWith('#')) continue;
     const [key, ...values] = trimmed.split('=');
     if (key && values.length > 0) {
-      const val = values.join('=').trim().replace(/^["']|["']$/g, '');
+      const val = values.join('=').split(/\s+#/)[0].trim().replace(/^["']|["']$/g, '');
       if (!process.env[key.trim()]) {
         process.env[key.trim()] = val;
       }
