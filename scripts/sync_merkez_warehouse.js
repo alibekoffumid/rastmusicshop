@@ -304,26 +304,34 @@ function extractAttributes(productName, categoryPath) {
     }
   }
 
-  // 2. Size / Octave
-  const sizeMatch = combined.match(SIZE_REGEX);
-  if (sizeMatch) {
-    let sizeVal = sizeMatch[1];
+  // 2. Size / Octave (handles fraction sizes 4/4, 1/2, etc. and ignores words starting with SM)
+  const fracMatch = combined.match(/(?:^|[\s,;(/])(4\/4|3\/4|1\/2|2\/1|1\/4|1\/8|1\/16)(?:$|[\s,;)/])/);
+  if (fracMatch) {
+    let sizeVal = fracMatch[1];
     if (sizeVal === '2/1') sizeVal = '1/2';
     specsAz.push(`Ölçü: ${sizeVal}`);
     specsRu.push(`Размер: ${sizeVal}`);
     specsEn.push(`Size: ${sizeVal}`);
   } else {
-    const octMatch = combined.match(OCTAVE_REGEX);
-    if (octMatch) {
-      const octVal = octMatch[1].toLowerCase();
-      if (octVal.includes('tam')) {
-        specsAz.push('Oktava: Tam oktava (88 klaviş)');
-        specsRu.push('Октавы: Полная октава (88 клавиш)');
-        specsEn.push('Octaves: Full 88 Keys');
-      } else {
-        specsAz.push('Oktava: 5 oktava (61 klaviş)');
-        specsRu.push('Октавы: 5 октав (61 клавиша)');
-        specsEn.push('Octaves: 5 Octaves (61 Keys)');
+    const unitMatch = combined.match(/(?:^|[\s,;(/])(\d{1,2})\s*(inch|düym|duym|sm)(?:$|[\s,;)/])/i);
+    if (unitMatch) {
+      const sizeVal = `${unitMatch[1]} ${unitMatch[2].toLowerCase()}`;
+      specsAz.push(`Ölçü: ${sizeVal}`);
+      specsRu.push(`Размер: ${sizeVal}`);
+      specsEn.push(`Size: ${sizeVal}`);
+    } else {
+      const octMatch = combined.match(/(?:^|[\s,;(/])(tam oktava|5 oktava)(?:$|[\s,;)/])/i);
+      if (octMatch) {
+        const octVal = octMatch[1].toLowerCase();
+        if (octVal.includes('tam')) {
+          specsAz.push('Oktava: Tam oktava (88 klaviş)');
+          specsRu.push('Октавы: Полная октава (88 клавиш)');
+          specsEn.push('Octaves: Full 88 Keys');
+        } else {
+          specsAz.push('Oktava: 5 oktava (61 klaviş)');
+          specsRu.push('Октавы: 5 октав (61 клавиша)');
+          specsEn.push('Octaves: 5 Octaves (61 Keys)');
+        }
       }
     }
   }
@@ -346,6 +354,8 @@ function extractAttributes(productName, categoryPath) {
 }
 
 function detectBrand(productName) {
+  if (/\b(?:PA[- ]?\d{3,4}|KORG)\b/i.test(productName)) return 'KORG';
+  if (/\b(?:PSR[- ]?[A-Z0-9]+|YDP|CLP|YAMAHA)\b/i.test(productName)) return 'YAMAHA';
   const upper = productName.toUpperCase();
   for (const b of KNOWN_BRANDS) {
     if (upper.includes(b)) return b;
@@ -393,7 +403,15 @@ function resolveSubcategorySlug(path, name) {
 
   // Fallback heuristics based on combined text
   const combined = `${normPath} ${normalizeKey(name)}`;
-  if (combined.includes('SKRIPKA') || combined.includes('CELLO') || combined.includes('SMICOK')) return 'skripkalar';
+  if (combined.includes('QULAQCIQ') || combined.includes('HEADPHONE')) return 'studia-qulaqliqlari';
+  if (/\b(?:PA[- ]?\d{3,4}|PSR[- ]?[A-Z0-9]+|SYNTH|KEYBOARD)\b/i.test(name)) return 'sintezatorlar';
+  if (combined.includes('SKRIPKA') || combined.includes('CELLO')) {
+    if (combined.includes('SMICOK') || combined.includes('SMC') || combined.includes('KANIFOL') || combined.includes('MOSTIK')) {
+      return 'yayli-alet-aksesuarlari';
+    }
+    return 'skripkalar';
+  }
+  if (combined.includes('SMICOK') || combined.includes('SMC')) return 'smicoklar-ve-tuk';
   if (combined.includes('GITARA')) {
     if (combined.includes('ELEKTRO')) return 'elektro-gitaralar';
     if (combined.includes('BASS')) return 'bas-gitaralar';
@@ -563,8 +581,8 @@ export async function runProductSync() {
 
     const valueClauses = chunk.map(r => {
       const imagesSql = r.images.length > 0
-        ? `ARRAY[${r.images.map(img => escapeSqlString(img)).join(', ')}]::text[]`
-        : `'{}'::text[]`;
+        ? `'${JSON.stringify(r.images).replace(/'/g, "''")}'::jsonb`
+        : `'[]'::jsonb`;
 
       return `  (${escapeSqlString(r.id)}, ${escapeSqlString(r.name)}, ${escapeSqlString(r.name_ru)}, ${escapeSqlString(r.name_en)}, ${r.price}, ${r.old_price === null ? 'NULL' : r.old_price}, ${escapeSqlString(r.brand)}, ${escapeSqlString(r.category_slug)}, ${escapeSqlString(r.subcategory_slug)}, ${escapeSqlString(r.image)}, ${imagesSql}, ${escapeSqlString(r.specifications)}, ${escapeSqlString(r.specifications_ru)}, ${escapeSqlString(r.specifications_en)}, ${escapeSqlString(r.sku)}, ${escapeSqlString(r.barcode)}, ${escapeSqlString(r.stock_status)}, ${r.is_archived}, ${escapeSqlString(r.condition)}, ${escapeSqlString(r.slug)}, ${escapeSqlString(r.created_at)})`;
     });
@@ -580,6 +598,7 @@ export async function runProductSync() {
     sqlLines.push('  category_slug = EXCLUDED.category_slug,');
     sqlLines.push('  subcategory_slug = EXCLUDED.subcategory_slug,');
     sqlLines.push('  image = CASE WHEN EXCLUDED.image <> \'\' THEN EXCLUDED.image ELSE public.products.image END,');
+    sqlLines.push('  images = CASE WHEN EXCLUDED.images <> \'[]\'::jsonb THEN EXCLUDED.images ELSE COALESCE(public.products.images, \'[]\'::jsonb) END,');
     sqlLines.push('  specifications = EXCLUDED.specifications,');
     sqlLines.push('  specifications_ru = EXCLUDED.specifications_ru,');
     sqlLines.push('  specifications_en = EXCLUDED.specifications_en,');
@@ -616,3 +635,4 @@ runProductSync().catch(err => {
   console.error('Fatal error during sync:', err);
   process.exit(1);
 });
+
