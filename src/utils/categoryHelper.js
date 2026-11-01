@@ -86,6 +86,54 @@ export function getSubcategories(slug) {
 }
 
 /**
+ * Recursively collects all descendant slugs (children, grandchildren, etc.) for a given category slug.
+ */
+export function getAllDescendantSlugs(slug) {
+  const node = getCategoryBySlug(slug);
+  if (!node) return [];
+  const descendants = [];
+  function collect(curr) {
+    if (curr.children && curr.children.length > 0) {
+      for (const child of curr.children) {
+        descendants.push(child.slug);
+        collect(child);
+      }
+    }
+  }
+  collect(node);
+  return descendants;
+}
+
+/**
+ * Returns the root parent category node for any leaf or subcategory slug.
+ */
+export function getRootCategoryForSlug(slug) {
+  const canonical = normalizeCategorySlug(slug);
+  let curr = getCategoryBySlug(canonical);
+  if (!curr) return null;
+  while (PARENT_MAP.has(curr.slug)) {
+    curr = PARENT_MAP.get(curr.slug);
+  }
+  return curr;
+}
+
+/**
+ * Checks whether an itemSlug is in targetSlugs OR is a descendant of any targetSlug.
+ */
+export function isSlugOrChildOf(itemSlug, targetSlugs) {
+  if (!itemSlug || !targetSlugs || targetSlugs.length === 0) return false;
+  const canonical = normalizeCategorySlug(itemSlug);
+  if (targetSlugs.includes(canonical) || targetSlugs.includes(itemSlug)) return true;
+  
+  let curr = PARENT_MAP.get(canonical);
+  while (curr) {
+    if (targetSlugs.includes(curr.slug)) return true;
+    curr = PARENT_MAP.get(curr.slug);
+  }
+  return false;
+}
+
+/**
  * Returns root categories ordered by order_index.
  */
 export function getRootCategories() {
