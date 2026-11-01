@@ -198,14 +198,14 @@ export const CATEGORY_TAXONOMY = [
       {
         slug: "qanun-ve-ud",
         name: {
-          az: "Qanun və ud",
+          az: "Kanon və ud",
           ru: "Канон и уд",
-          en: "Qanun & Oud"
+          en: "Kanon & Oud"
         },
         children: [
-          { slug: "qanun", name: { az: "Qanun", ru: "Канон (Канун)", en: "Qanun (Kanun)" } },
+          { slug: "qanun", name: { az: "Kanon", ru: "Канон (Канун)", en: "Kanon (Kanun)" } },
           { slug: "ud", name: { az: "Ud", ru: "Уд", en: "Oud" } },
-          { slug: "qanun-aksesuarlari", name: { az: "Qanun aksesuarları (Simlər, mizrab, üskük, açar)", ru: "Аксессуары для канона (струны, плектры, наперстки, ключ)", en: "Qanun Accessories (Strings, Picks, Rings, Key)" } },
+          { slug: "qanun-aksesuarlari", name: { az: "Kanon aksesuarları (Simlər, mizrab, üskük, açar)", ru: "Аксессуары для канона (струны, плектры, наперстки, ключ)", en: "Kanon Accessories (Strings, Picks, Rings, Key)" } },
           { slug: "ud-aksesuarlari", name: { az: "Ud aksesuarları (Simlər, mizrab, çanta)", ru: "Аксессуары для уда (струны, медиаторы, чехлы)", en: "Oud Accessories (Strings, Picks, Bags)" } }
         ]
       },
@@ -490,7 +490,12 @@ export const SLUG_LEGACY_ALIASES = {
   tuners: "gitara-aksesuarlari",
   metronomes: "alet-not-dayaqlari",
   "power-supplies": "adapterler-batareyalar",
-  adapters: "stekkerler-perexodnikler"
+  adapters: "stekkerler-perexodnikler",
+
+  // Aliases for Kanon
+  kanon: "qanun",
+  "kanon-ve-ud": "qanun-ve-ud",
+  kanun: "qanun"
 };
 
 
