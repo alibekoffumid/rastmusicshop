@@ -248,6 +248,18 @@ for (const [key, val] of Object.entries(WAREHOUSE_CATEGORY_MAP)) {
   NORMALIZED_MAP[normalizeKey(key)] = val;
 }
 
+// Factory Titles Catalog (Guangzhou Gidoo / Kaysen / Tayste / The Rose)
+let FACTORY_TITLES_MAP = new Map();
+try {
+  const gidooData = JSON.parse(fs.readFileSync('scripts/data/gidoo_catalog_titles.json', 'utf8'));
+  gidooData.forEach(item => {
+    FACTORY_TITLES_MAP.set(item.sku, item);
+  });
+  console.log('✓ Loaded ' + FACTORY_TITLES_MAP.size + ' factory titles for catalog mapping.');
+} catch (e) {
+  console.warn('Could not load gidoo_catalog_titles.json:', e.message);
+}
+
 // Brand detection catalog
 const KNOWN_BRANDS = [
   'YAMAHA', 'KORG', 'CASIO', 'ROLAND', 'FENDER', 'IBANEZ', 'GIBSON', 'EPIPHONE',
@@ -517,18 +529,30 @@ export async function runProductSync() {
     if (specs.az.includes('Material:')) stats.materialsExtracted++;
     if (p.image_url) stats.withImages++;
 
-    const cleanedName = cleanProductName(p.name);
-    const slug = generateSlug(cleanedName, p.id);
+    const sku = p.barcode ? `RM-${p.barcode.slice(-6)}` : `RM-${p.id.slice(0, 6).toUpperCase()}`;
+    const factoryTitle = FACTORY_TITLES_MAP.get(sku);
+    const finalName = factoryTitle ? factoryTitle.name : cleanProductName(p.name);
+    const finalNameRu = factoryTitle ? factoryTitle.name_ru : finalName;
+    const finalNameEn = factoryTitle ? factoryTitle.name_en : finalName;
+    let finalBrand = brand;
+    if (factoryTitle) {
+      if (finalName.startsWith('Tayste')) finalBrand = 'TAYSTE';
+      else if (finalName.startsWith('Kaysen')) finalBrand = 'KAYSEN';
+      else if (finalName.startsWith('The Rose')) finalBrand = 'THE ROSE';
+      else if (finalName.startsWith('Gidoo')) finalBrand = 'GIDOO';
+    }
+
+    const slug = generateSlug(finalName, p.id);
     const stockStatus = (p.stock_quantity > 0) ? 'in_stock' : 'out_of_stock';
 
     syncRecords.push({
       id: p.id,
-      name: cleanedName,
-      name_ru: cleanedName,
-      name_en: cleanedName,
+      name: finalName,
+      name_ru: finalNameRu,
+      name_en: finalNameEn,
       price: Number(p.price) || 0,
       old_price: p.purchase_price ? Number(p.purchase_price) : null,
-      brand: brand,
+      brand: finalBrand,
       category_slug: rootCategorySlug,
       subcategory_slug: subcategorySlug,
       image: p.image_url || '',

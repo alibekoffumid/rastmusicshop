@@ -1,0 +1,1616 @@
+[
+  {
+    "sku": "RM-554201",
+    "name": "Tayste TS-22-41 Akustik Gitara 41\" Dreadnought Cutaway (Qırmızı ağac)",
+    "name_ru": "Tayste TS-22-41 Акустическая гитара 41\" Dreadnought Cutaway (Красное дерево)",
+    "name_en": "Tayste TS-22-41 Acoustic Guitar 41\" Dreadnought Cutaway Mahogany"
+  },
+  {
+    "sku": "RM-492897",
+    "name": "Tayste T-414-EQ Elektro-akustik Gitara 41\" Natural (EQ-7545R)",
+    "name_ru": "Tayste T-414-EQ Электроакустическая гитара 41\" Natural (Преамп EQ-7545R)",
+    "name_en": "Tayste T-414-EQ Acoustic-Electric Guitar 41\" Natural (EQ-7545R Preamp)"
+  },
+  {
+    "sku": "RM-473272",
+    "name": "Tayste T-414-EQ Elektro-akustik Gitara 41\" Sunburst (EQ-7545R)",
+    "name_ru": "Tayste T-414-EQ Электроакустическая гитара 41\" Sunburst (Преамп EQ-7545R)",
+    "name_en": "Tayste T-414-EQ Acoustic-Electric Guitar 41\" Sunburst (EQ-7545R Preamp)"
+  },
+  {
+    "sku": "RM-586709",
+    "name": "Tayste T-414-EQ Elektro-akustik Gitara 41\" Tobacco Sunburst (EQ-7545R)",
+    "name_ru": "Tayste T-414-EQ Электроакустическая гитара 41\" Tobacco Sunburst (EQ-7545R)",
+    "name_en": "Tayste T-414-EQ Acoustic-Electric Guitar 41\" Tobacco Sunburst (EQ-7545R)"
+  },
+  {
+    "sku": "RM-127180",
+    "name": "Tayste T-414 Akustik Gitara 41\" Dreadnought Natural",
+    "name_ru": "Tayste T-414 Акустическая гитара 41\" Dreadnought Natural",
+    "name_en": "Tayste T-414 Acoustic Guitar 41\" Dreadnought Natural"
+  },
+  {
+    "sku": "RM-768284",
+    "name": "Tayste T-414 Akustik Gitara 41\" Dreadnought Sunburst",
+    "name_ru": "Tayste T-414 Акустическая гитара 41\" Dreadnought Sunburst",
+    "name_en": "Tayste T-414 Acoustic Guitar 41\" Dreadnought Sunburst"
+  },
+  {
+    "sku": "RM-128353",
+    "name": "Tayste T-414 Akustik Gitara 41\" Dreadnought Tobacco Sunburst",
+    "name_ru": "Tayste T-414 Акустическая гитара 41\" Dreadnought Tobacco Sunburst",
+    "name_en": "Tayste T-414 Acoustic Guitar 41\" Dreadnought Tobacco Sunburst"
+  },
+  {
+    "sku": "RM-628338",
+    "name": "Tayste T-414-M Akustik Gitara 41\" Dreadnought Mat",
+    "name_ru": "Tayste T-414-M Акустическая гитара 41\" Dreadnought Матовая",
+    "name_en": "Tayste T-414-M Acoustic Guitar 41\" Dreadnought Matte"
+  },
+  {
+    "sku": "RM-620589",
+    "name": "Tayste T-414-EQ-M Elektro-akustik Gitara 41\" Mat (EQ-7545R)",
+    "name_ru": "Tayste T-414-EQ-M Электроакустическая гитара 41\" Матовая (Преамп EQ-7545R)",
+    "name_en": "Tayste T-414-EQ-M Acoustic-Electric Guitar 41\" Matte (EQ-7545R Preamp)"
+  },
+  {
+    "sku": "RM-818845",
+    "name": "Tayste TS-J35-A-EQ Elektro-akustik Gitara 40\" Qol Dayaqlı Qoz Ağacı (Armrest)",
+    "name_ru": "Tayste TS-J35-A-EQ Электроакустическая гитара 40\" С подлокотником Орех (Armrest)",
+    "name_en": "Tayste TS-J35-A-EQ Acoustic-Electric Guitar 40\" Walnut Armrest Cutaway"
+  },
+  {
+    "sku": "RM-638077",
+    "name": "Tayste TS230-A-EQ Elektro-akustik Gitara 40\" Sapele Cutaway Black",
+    "name_ru": "Tayste TS230-A-EQ Электроакустическая гитара 40\" Сапеле Cutaway Black",
+    "name_en": "Tayste TS230-A-EQ Acoustic-Electric Guitar 40\" Sapele Cutaway Black"
+  },
+  {
+    "sku": "RM-814794",
+    "name": "Tayste TS230-D-EQ Elektro-akustik Gitara 41\" Dreadnought Black",
+    "name_ru": "Tayste TS230-D-EQ Электроакустическая гитара 41\" Dreadnought Black",
+    "name_en": "Tayste TS230-D-EQ Acoustic-Electric Guitar 41\" Dreadnought Black"
+  },
+  {
+    "sku": "RM-227984",
+    "name": "Tayste TS-68-DC Akustik Gitara 41\" Dreadnought Dərin Kəsikli Black",
+    "name_ru": "Tayste TS-68-DC Акустическая гитара 41\" Dreadnought Глубокий вырез Black",
+    "name_en": "Tayste TS-68-DC Acoustic Guitar 41\" Dreadnought Deep Cutaway Black"
+  },
+  {
+    "sku": "RM-497958",
+    "name": "Tayste TS-68-JF Akustik Gitara 40\" Jumbo/Folk Natural",
+    "name_ru": "Tayste TS-68-JF Акустическая гитара 40\" Jumbo/Folk Natural",
+    "name_en": "Tayste TS-68-JF Acoustic Guitar 40\" Jumbo/Folk Natural"
+  },
+  {
+    "sku": "RM-262281",
+    "name": "Tayste TS-62-GA Akustik Gitara 41\" Grand Auditorium Black",
+    "name_ru": "Tayste TS-62-GA Акустическая гитара 41\" Grand Auditorium Black",
+    "name_en": "Tayste TS-62-GA Acoustic Guitar 41\" Grand Auditorium Black"
+  },
+  {
+    "sku": "RM-157299",
+    "name": "Tayste T-402 Akustik Gitara 40\" Folk Natural",
+    "name_ru": "Tayste T-402 Акустическая гитара 40\" Folk Natural",
+    "name_en": "Tayste T-402 Acoustic Guitar 40\" Folk Natural"
+  },
+  {
+    "sku": "RM-440152",
+    "name": "Tayste T-402 Akustik Gitara 40\" Folk Black",
+    "name_ru": "Tayste T-402 Акустическая гитара 40\" Folk Black",
+    "name_en": "Tayste T-402 Acoustic Guitar 40\" Folk Black"
+  },
+  {
+    "sku": "RM-121816",
+    "name": "Tayste T-402 Akustik Gitara 40\" Folk Sunburst",
+    "name_ru": "Tayste T-402 Акустическая гитара 40\" Folk Sunburst",
+    "name_en": "Tayste T-402 Acoustic Guitar 40\" Folk Sunburst"
+  },
+  {
+    "sku": "RM-456938",
+    "name": "Tayste T-401 Akustik Gitara 40\" Kəsikli Natural",
+    "name_ru": "Tayste T-401 Акустическая гитара 40\" Cutaway Natural",
+    "name_en": "Tayste T-401 Acoustic Guitar 40\" Cutaway Natural"
+  },
+  {
+    "sku": "RM-111574",
+    "name": "Tayste T-401 Akustik Gitara 40\" Kəsikli Black",
+    "name_ru": "Tayste T-401 Акустическая гитара 40\" Cutaway Black",
+    "name_en": "Tayste T-401 Acoustic Guitar 40\" Cutaway Black"
+  },
+  {
+    "sku": "RM-021441",
+    "name": "Tayste T-401 Akustik Gitara 40\" Kəsikli Sunburst",
+    "name_ru": "Tayste T-401 Акустическая гитара 40\" Cutaway Sunburst",
+    "name_en": "Tayste T-401 Acoustic Guitar 40\" Cutaway Sunburst"
+  },
+  {
+    "sku": "RM-399216",
+    "name": "Tayste T-401-EQ Elektro-akustik Gitara 40\" Cutaway Natural",
+    "name_ru": "Tayste T-401-EQ Электроакустическая гитара 40\" Cutaway Natural",
+    "name_en": "Tayste T-401-EQ Acoustic-Electric Guitar 40\" Cutaway Natural"
+  },
+  {
+    "sku": "RM-853466",
+    "name": "Tayste T-401-EQ Elektro-akustik Gitara 40\" Cutaway Black",
+    "name_ru": "Tayste T-401-EQ Электроакустическая гитара 40\" Cutaway Black",
+    "name_en": "Tayste T-401-EQ Acoustic-Electric Guitar 40\" Cutaway Black"
+  },
+  {
+    "sku": "RM-863264",
+    "name": "Tayste T-401-EQ Elektro-akustik Gitara 40\" Cutaway Blue",
+    "name_ru": "Tayste T-401-EQ Электроакустическая гитара 40\" Cutaway Blue",
+    "name_en": "Tayste T-401-EQ Acoustic-Electric Guitar 40\" Cutaway Blue"
+  },
+  {
+    "sku": "RM-374052",
+    "name": "Tayste T-401-EQ Elektro-akustik Gitara 40\" Cutaway Sunburst",
+    "name_ru": "Tayste T-401-EQ Электроакустическая гитара 40\" Cutaway Sunburst",
+    "name_en": "Tayste T-401-EQ Acoustic-Electric Guitar 40\" Cutaway Sunburst"
+  },
+  {
+    "sku": "RM-630842",
+    "name": "Tayste T-403 Akustik Gitara 40\" Kəsikli Blue",
+    "name_ru": "Tayste T-403 Акустическая гитара 40\" Cutaway Blue",
+    "name_en": "Tayste T-403 Acoustic Guitar 40\" Cutaway Blue"
+  },
+  {
+    "sku": "RM-454969",
+    "name": "Tayste T-403 Akustik Gitara 40\" Kəsikli Sunburst",
+    "name_ru": "Tayste T-403 Акустическая гитара 40\" Cutaway Sunburst",
+    "name_en": "Tayste T-403 Acoustic Guitar 40\" Cutaway Sunburst"
+  },
+  {
+    "sku": "RM-240802",
+    "name": "Tayste T-403 Akustik Gitara 40\" Kəsikli Tobacco Sunburst",
+    "name_ru": "Tayste T-403 Акустическая гитара 40\" Cutaway Tobacco Sunburst",
+    "name_en": "Tayste T-403 Acoustic Guitar 40\" Cutaway Tobacco Sunburst"
+  },
+  {
+    "sku": "RM-050142",
+    "name": "Tayste T-404 Akustik Gitara 40\" Folk Natural",
+    "name_ru": "Tayste T-404 Акустическая гитара 40\" Folk Natural",
+    "name_en": "Tayste T-404 Acoustic Guitar 40\" Folk Natural"
+  },
+  {
+    "sku": "RM-697137",
+    "name": "Tayste T-404 Akustik Gitara 40\" Folk Sunburst",
+    "name_ru": "Tayste T-404 Акустическая гитара 40\" Folk Sunburst",
+    "name_en": "Tayste T-404 Acoustic Guitar 40\" Folk Sunburst"
+  },
+  {
+    "sku": "RM-719970",
+    "name": "Tayste T-404-M Akustik Gitara 40\" Folk Mat",
+    "name_ru": "Tayste T-404-M Акустическая гитара 40\" Folk Матовая",
+    "name_en": "Tayste T-404-M Acoustic Guitar 40\" Folk Matte"
+  },
+  {
+    "sku": "RM-493204",
+    "name": "Tayste T-404-EQ Elektro-akustik Gitara 40\" Folk Natural",
+    "name_ru": "Tayste T-404-EQ Электроакустическая гитара 40\" Folk Natural",
+    "name_en": "Tayste T-404-EQ Acoustic-Electric Guitar 40\" Folk Natural"
+  },
+  {
+    "sku": "RM-114505",
+    "name": "Tayste T-404-EQ Elektro-akustik Gitara 40\" Folk Sunburst",
+    "name_ru": "Tayste T-404-EQ Электроакустическая гитара 40\" Folk Sunburst",
+    "name_en": "Tayste T-404-EQ Acoustic-Electric Guitar 40\" Folk Sunburst"
+  },
+  {
+    "sku": "RM-050639",
+    "name": "Tayste T-404-EQ-M Elektro-akustik Gitara 40\" Folk Mat",
+    "name_ru": "Tayste T-404-EQ-M Электроакустическая гитара 40\" Folk Матовая",
+    "name_en": "Tayste T-404-EQ-M Acoustic-Electric Guitar 40\" Folk Matte"
+  },
+  {
+    "sku": "RM-818676",
+    "name": "Tayste T-404-EQ Elektro-akustik Gitara 40\" Tobacco Sunburst",
+    "name_ru": "Tayste T-404-EQ Электроакустическая гитара 40\" Tobacco Sunburst",
+    "name_en": "Tayste T-404-EQ Acoustic-Electric Guitar 40\" Tobacco Sunburst"
+  },
+  {
+    "sku": "RM-827202",
+    "name": "Tayste T-411 Akustik Gitara 41\" Dreadnought Natural",
+    "name_ru": "Tayste T-411 Акустическая гитара 41\" Dreadnought Natural",
+    "name_en": "Tayste T-411 Acoustic Guitar 41\" Dreadnought Natural"
+  },
+  {
+    "sku": "RM-513520",
+    "name": "Tayste T-411 Akustik Gitara 41\" Dreadnought Black",
+    "name_ru": "Tayste T-411 Акустическая гитара 41\" Dreadnought Black",
+    "name_en": "Tayste T-411 Acoustic Guitar 41\" Dreadnought Black"
+  },
+  {
+    "sku": "RM-920723",
+    "name": "Tayste T-411 Akustik Gitara 41\" Dreadnought Blue",
+    "name_ru": "Tayste T-411 Акустическая гитара 41\" Dreadnought Blue",
+    "name_en": "Tayste T-411 Acoustic Guitar 41\" Dreadnought Blue"
+  },
+  {
+    "sku": "RM-731281",
+    "name": "Tayste T-411 Akustik Gitara 41\" Dreadnought Sunburst",
+    "name_ru": "Tayste T-411 Акустическая гитара 41\" Dreadnought Sunburst",
+    "name_en": "Tayste T-411 Acoustic Guitar 41\" Dreadnought Sunburst"
+  },
+  {
+    "sku": "RM-551548",
+    "name": "Tayste T-411-EQ Elektro-akustik Gitara 41\" Dreadnought Natural",
+    "name_ru": "Tayste T-411-EQ Электроакустическая гитара 41\" Dreadnought Natural",
+    "name_en": "Tayste T-411-EQ Acoustic-Electric Guitar 41\" Dreadnought Natural"
+  },
+  {
+    "sku": "RM-334908",
+    "name": "Tayste T-411-EQ Elektro-akustik Gitara 41\" Dreadnought Black",
+    "name_ru": "Tayste T-411-EQ Электроакустическая гитара 41\" Dreadnought Black",
+    "name_en": "Tayste T-411-EQ Acoustic-Electric Guitar 41\" Dreadnought Black"
+  },
+  {
+    "sku": "RM-153196",
+    "name": "Tayste T-411-EQ Elektro-akustik Gitara 41\" Dreadnought Blue",
+    "name_ru": "Tayste T-411-EQ Электроакустическая гитара 41\" Dreadnought Blue",
+    "name_en": "Tayste T-411-EQ Acoustic-Electric Guitar 41\" Dreadnought Blue"
+  },
+  {
+    "sku": "RM-377101",
+    "name": "Tayste T-411-EQ Elektro-akustik Gitara 41\" Dreadnought Sunburst",
+    "name_ru": "Tayste T-411-EQ Электроакустическая гитара 41\" Dreadnought Sunburst",
+    "name_en": "Tayste T-411-EQ Acoustic-Electric Guitar 41\" Dreadnought Sunburst"
+  },
+  {
+    "sku": "RM-003229",
+    "name": "Tayste TS-J34 Akustik Gitara 34\" Mini Səyahət Natural (Travel)",
+    "name_ru": "Tayste TS-J34 Акустическая гитара 34\" Mini Тревел Natural",
+    "name_en": "Tayste TS-J34 Acoustic Guitar 34\" Mini Travel Natural"
+  },
+  {
+    "sku": "RM-394451",
+    "name": "Tayste TS-J34-EQ Elektro-akustik Gitara 34\" Mini Səyahət (Travel)",
+    "name_ru": "Tayste TS-J34-EQ Электроакустическая гитара 34\" Mini Тревел Natural",
+    "name_en": "Tayste TS-J34-EQ Acoustic-Electric Guitar 34\" Mini Travel Natural"
+  },
+  {
+    "sku": "RM-677232",
+    "name": "Kaysen K-C17MS Akustik Gitara 41\" Massiv Ağac Cherry Sunburst",
+    "name_ru": "Kaysen K-C17MS Акустическая гитара 41\" Массив дерева Cherry Sunburst",
+    "name_en": "Kaysen K-C17MS Acoustic Guitar 41\" Solid Wood Cherry Sunburst"
+  },
+  {
+    "sku": "RM-056334",
+    "name": "Kaysen K-H1 Akustik Gitara 40\" Qol Dayaqlı Massiv Şam (Armrest Solid)",
+    "name_ru": "Kaysen K-H1 Акустическая гитара 40\" С подлокотником Массив ели (Armrest)",
+    "name_en": "Kaysen K-H1 Acoustic Guitar 40\" Armrest Solid Spruce Top"
+  },
+  {
+    "sku": "RM-112397",
+    "name": "Kaysen K-AG12 Akustik Gitara 12-Simli 41\" Black",
+    "name_ru": "Kaysen K-AG12 Акустическая гитара 12-струнная 41\" Black",
+    "name_en": "Kaysen K-AG12 12-String Acoustic Guitar 41\" Black"
+  },
+  {
+    "sku": "RM-585040",
+    "name": "Kaysen K-AG12 Akustik Gitara 12-Simli 41\" Natural",
+    "name_ru": "Kaysen K-AG12 Акустическая гитара 12-струнная 41\" Natural",
+    "name_en": "Kaysen K-AG12 12-String Acoustic Guitar 41\" Natural"
+  },
+  {
+    "sku": "RM-431638",
+    "name": "Kaysen K-AB40 Akustik Bas Gitara 4-Simli Natural",
+    "name_ru": "Kaysen K-AB40 Акустическая бас-гитара 4-струнная Natural",
+    "name_en": "Kaysen K-AB40 4-String Acoustic Bass Guitar Natural"
+  },
+  {
+    "sku": "RM-786301",
+    "name": "Kaysen K-AB40 Akustik Bas Gitara 4-Simli Black",
+    "name_ru": "Kaysen K-AB40 Акустическая бас-гитара 4-струнная Black",
+    "name_en": "Kaysen K-AB40 4-String Acoustic Bass Guitar Black"
+  },
+  {
+    "sku": "RM-326792",
+    "name": "Kaysen K-CA110 Səssiz Səyahət Gitarası Silent Guitar (Qulaqlıq çıxışlı)",
+    "name_ru": "Kaysen K-CA110 Бесшумная тревел-гитара Silent Guitar (С выходом на наушники)",
+    "name_en": "Kaysen K-CA110 Silent Travel Guitar (Headphone Output / EQ)"
+  },
+  {
+    "sku": "RM-512551",
+    "name": "Kaysen K-CA110 Səssiz Səyahət Gitarası Silent Guitar Black (Qulaqlıq çıxışlı)",
+    "name_ru": "Kaysen K-CA110 Бесшумная тревел-гитара Silent Guitar Black (С выходом на наушники)",
+    "name_en": "Kaysen K-CA110 Silent Travel Guitar Black (Headphone Output / EQ)"
+  },
+  {
+    "sku": "RM-728792",
+    "name": "Kaysen K-CG126 Klassik Gitara 4/4 39\" Massiv Şam Üzlüklü",
+    "name_ru": "Kaysen K-CG126 Классическая гитара 4/4 39\" Массив ели",
+    "name_en": "Kaysen K-CG126 Classical Guitar 4/4 39\" Solid Spruce Top"
+  },
+  {
+    "sku": "RM-216033",
+    "name": "Kaysen K-CG1TC Klassik Gitara 4/4 39\" İncə Gövdəli Kəsikli Natural (Slim Cutaway)",
+    "name_ru": "Kaysen K-CG1TC Классическая гитара 4/4 39\" Тонкий корпус Cutaway Natural",
+    "name_en": "Kaysen K-CG1TC Classical Guitar 4/4 39\" Slim Cutaway Natural"
+  },
+  {
+    "sku": "RM-879658",
+    "name": "Kaysen K-CG2C Klassik Gitara 4/4 39\" Kəsikli Black",
+    "name_ru": "Kaysen K-CG2C Классическая гитара 4/4 39\" Cutaway Black",
+    "name_en": "Kaysen K-CG2C Classical Guitar 4/4 39\" Cutaway Black"
+  },
+  {
+    "sku": "RM-455320",
+    "name": "Kaysen K-CG2C Klassik Gitara 4/4 39\" Kəsikli Natural",
+    "name_ru": "Kaysen K-CG2C Классическая гитара 4/4 39\" Cutaway Natural",
+    "name_en": "Kaysen K-CG2C Classical Guitar 4/4 39\" Cutaway Natural"
+  },
+  {
+    "sku": "RM-993097",
+    "name": "Tayste TS-CG35-39 Klassik Gitara 4/4 39\" Tələbə Natural",
+    "name_ru": "Tayste TS-CG35-39 Классическая гитара 4/4 39\" Ученическая Natural",
+    "name_en": "Tayste TS-CG35-39 Classical Guitar 4/4 39\" Student Natural"
+  },
+  {
+    "sku": "RM-926007",
+    "name": "Tayste TS-CG35-39-EQ Elektro-klassik Gitara 4/4 39\" Natural (EQ)",
+    "name_ru": "Tayste TS-CG35-39-EQ Электроклассическая гитара 4/4 39\" Natural (Преамп)",
+    "name_en": "Tayste TS-CG35-39-EQ Acoustic-Electric Classical Guitar 4/4 39\" (Preamp)"
+  },
+  {
+    "sku": "RM-941460",
+    "name": "Tayste TS-CG31-39 Klassik Gitara 4/4 39\" Natural",
+    "name_ru": "Tayste TS-CG31-39 Классическая гитара 4/4 39\" Natural",
+    "name_en": "Tayste TS-CG31-39 Classical Guitar 4/4 39\" Natural"
+  },
+  {
+    "sku": "RM-335452",
+    "name": "Tayste TS-CG31-39 Klassik Gitara 4/4 39\" Yellow Natural",
+    "name_ru": "Tayste TS-CG31-39 Классическая гитара 4/4 39\" Yellow Natural",
+    "name_en": "Tayste TS-CG31-39 Classical Guitar 4/4 39\" Yellow Natural"
+  },
+  {
+    "sku": "RM-986385",
+    "name": "Tayste TS-CG31-39-EQ Elektro-klassik Gitara 4/4 39\" Natural (EQ)",
+    "name_ru": "Tayste TS-CG31-39-EQ Электроклассическая гитара 4/4 39\" Natural (Преамп)",
+    "name_en": "Tayste TS-CG31-39-EQ Acoustic-Electric Classical Guitar 4/4 39\" (Preamp)"
+  },
+  {
+    "sku": "RM-222569",
+    "name": "Tayste TS-CG31-39-EQ Elektro-klassik Gitara 4/4 39\" Yellow Natural (EQ)",
+    "name_ru": "Tayste TS-CG31-39-EQ Электроклассическая гитара 4/4 39\" Yellow Natural (Преамп)",
+    "name_en": "Tayste TS-CG31-39-EQ Acoustic-Electric Classical Guitar 4/4 39\" Yellow Natural"
+  },
+  {
+    "sku": "RM-143461",
+    "name": "Tayste TS-CG32-39 Klassik Gitara 4/4 39\" Natural",
+    "name_ru": "Tayste TS-CG32-39 Классическая гитара 4/4 39\" Natural",
+    "name_en": "Tayste TS-CG32-39 Classical Guitar 4/4 39\" Natural"
+  },
+  {
+    "sku": "RM-608544",
+    "name": "Tayste TS-CG32-39 Klassik Gitara 4/4 39\" Yellow Natural",
+    "name_ru": "Tayste TS-CG32-39 Классическая гитара 4/4 39\" Yellow Natural",
+    "name_en": "Tayste TS-CG32-39 Classical Guitar 4/4 39\" Yellow Natural"
+  },
+  {
+    "sku": "RM-926744",
+    "name": "Tayste TS-CG32-39-EQ Elektro-klassik Gitara 4/4 39\" Natural (EQ)",
+    "name_ru": "Tayste TS-CG32-39-EQ Электроклассическая гитара 4/4 39\" Natural (Преамп)",
+    "name_en": "Tayste TS-CG32-39-EQ Acoustic-Electric Classical Guitar 4/4 39\" (Preamp)"
+  },
+  {
+    "sku": "RM-339433",
+    "name": "Tayste TS-CG32-39-EQ Elektro-klassik Gitara 4/4 39\" Yellow Natural (EQ)",
+    "name_ru": "Tayste TS-CG32-39-EQ Электроклассическая гитара 4/4 39\" Yellow Natural (Преамп)",
+    "name_en": "Tayste TS-CG32-39-EQ Acoustic-Electric Classical Guitar 4/4 39\" Yellow Natural"
+  },
+  {
+    "sku": "RM-574932",
+    "name": "Tayste TS-CG33-39 Klassik Gitara 4/4 39\" Kəsikli Natural (Cutaway)",
+    "name_ru": "Tayste TS-CG33-39 Классическая гитара 4/4 39\" Cutaway Natural",
+    "name_en": "Tayste TS-CG33-39 Classical Guitar 4/4 39\" Cutaway Natural"
+  },
+  {
+    "sku": "RM-938210",
+    "name": "Tayste TS-CG33-39 Klassik Gitara 4/4 39\" Kəsikli Yellow Natural",
+    "name_ru": "Tayste TS-CG33-39 Классическая гитара 4/4 39\" Cutaway Yellow Natural",
+    "name_en": "Tayste TS-CG33-39 Classical Guitar 4/4 39\" Cutaway Yellow Natural"
+  },
+  {
+    "sku": "RM-171673",
+    "name": "Tayste TS-CG33-39-EQ Elektro-klassik Gitara 4/4 39\" Kəsikli Natural (EQ)",
+    "name_ru": "Tayste TS-CG33-39-EQ Электроклассическая гитара 4/4 39\" Cutaway Natural (Преамп)",
+    "name_en": "Tayste TS-CG33-39-EQ Acoustic-Electric Classical Guitar 4/4 39\" Cutaway Natural"
+  },
+  {
+    "sku": "RM-953314",
+    "name": "Tayste TS-CG33-39-EQ Elektro-klassik Gitara 4/4 39\" Kəsikli Yellow Natural",
+    "name_ru": "Tayste TS-CG33-39-EQ Электроклассическая гитара 4/4 39\" Cutaway Yellow Natural",
+    "name_en": "Tayste TS-CG33-39-EQ Acoustic-Electric Classical Guitar 4/4 39\" Cutaway YN"
+  },
+  {
+    "sku": "RM-030594",
+    "name": "Tayste TS-CG36-39 Klassik Gitara 4/4 39\" Tələbə Natural",
+    "name_ru": "Tayste TS-CG36-39 Классическая гитара 4/4 39\" Ученическая Natural",
+    "name_en": "Tayste TS-CG36-39 Classical Guitar 4/4 39\" Student Natural"
+  },
+  {
+    "sku": "RM-212390",
+    "name": "Tayste TS-CG36-39-EQ Elektro-klassik Gitara 4/4 39\" Natural (EQ)",
+    "name_ru": "Tayste TS-CG36-39-EQ Электроклассическая гитара 4/4 39\" Natural (Преамп)",
+    "name_en": "Tayste TS-CG36-39-EQ Acoustic-Electric Classical Guitar 4/4 39\" (Preamp)"
+  },
+  {
+    "sku": "RM-746978",
+    "name": "Tayste TS-CG100-EQ Elektro-klassik Gitara 4/4 39\" Səhnə Modeli Natural",
+    "name_ru": "Tayste TS-CG100-EQ Электроклассическая гитара 4/4 39\" Natural (Тюнер/EQ)",
+    "name_en": "Tayste TS-CG100-EQ Acoustic-Electric Classical Guitar 4/4 39\" Natural"
+  },
+  {
+    "sku": "RM-163076",
+    "name": "Tayste TS-CG100-EQ Elektro-klassik Gitara 4/4 39\" Səhnə Modeli Black",
+    "name_ru": "Tayste TS-CG100-EQ Электроклассическая гитара 4/4 39\" Black (Тюнер/EQ)",
+    "name_en": "Tayste TS-CG100-EQ Acoustic-Electric Classical Guitar 4/4 39\" Black"
+  },
+  {
+    "sku": "RM-240386",
+    "name": "Kaysen K-CG200-EQ Elektro-klassik Gitara 4/4 39\" Massiv Şam Natural",
+    "name_ru": "Kaysen K-CG200-EQ Электроклассическая гитара 4/4 39\" Массив ели Natural",
+    "name_en": "Kaysen K-CG200-EQ Acoustic-Electric Classical Guitar 4/4 39\" Solid Spruce Top"
+  },
+  {
+    "sku": "RM-768352",
+    "name": "Kaysen K-CG300-EQ Elektro-klassik Gitara 4/4 39\" Massiv Üzlüklü Natural",
+    "name_ru": "Kaysen K-CG300-EQ Электроклассическая гитара 4/4 39\" Массив дерева Natural",
+    "name_en": "Kaysen K-CG300-EQ Acoustic-Electric Classical Guitar 4/4 39\" Solid Top"
+  },
+  {
+    "sku": "RM-449287",
+    "name": "Kaysen K-CG400-EQ Elektro-klassik Gitara 4/4 39\" Deluxe Solid Top Natural",
+    "name_ru": "Kaysen K-CG400-EQ Электроклассическая гитара 4/4 39\" Deluxe Массив ели",
+    "name_en": "Kaysen K-CG400-EQ Acoustic-Electric Classical Guitar 4/4 39\" Deluxe Solid Top"
+  },
+  {
+    "sku": "RM-903591",
+    "name": "Kaysen K-CG510S-EQ Elektro-klassik Gitara 4/4 39\" Kəsikli Massiv Şam Natural",
+    "name_ru": "Kaysen K-CG510S-EQ Электроклассическая гитара 4/4 39\" Cutaway Массив ели",
+    "name_en": "Kaysen K-CG510S-EQ Acoustic-Electric Classical Guitar 4/4 39\" Cutaway Solid Spruce"
+  },
+  {
+    "sku": "RM-433269",
+    "name": "Kaysen K-CG1 Klassik Gitara 4/4 39\" Natural",
+    "name_ru": "Kaysen K-CG1 Классическая гитара 4/4 39\" Natural",
+    "name_en": "Kaysen K-CG1 Classical Guitar 4/4 39\" Natural"
+  },
+  {
+    "sku": "RM-474119",
+    "name": "Kaysen K-CG1 Klassik Gitara 4/4 39\" Black",
+    "name_ru": "Kaysen K-CG1 Классическая гитара 4/4 39\" Black",
+    "name_en": "Kaysen K-CG1 Classical Guitar 4/4 39\" Black"
+  },
+  {
+    "sku": "RM-532391",
+    "name": "Kaysen K-CG1 Klassik Gitara 4/4 39\" Blue",
+    "name_ru": "Kaysen K-CG1 Классическая гитара 4/4 39\" Blue",
+    "name_en": "Kaysen K-CG1 Classical Guitar 4/4 39\" Blue"
+  },
+  {
+    "sku": "RM-333886",
+    "name": "Kaysen K-CG1 Klassik Gitara 4/4 39\" Red",
+    "name_ru": "Kaysen K-CG1 Классическая гитара 4/4 39\" Red",
+    "name_en": "Kaysen K-CG1 Classical Guitar 4/4 39\" Red"
+  },
+  {
+    "sku": "RM-584428",
+    "name": "Kaysen K-CG1 Klassik Gitara 4/4 39\" Yellow Natural",
+    "name_ru": "Kaysen K-CG1 Классическая гитара 4/4 39\" Yellow Natural",
+    "name_en": "Kaysen K-CG1 Classical Guitar 4/4 39\" Yellow Natural"
+  },
+  {
+    "sku": "RM-134680",
+    "name": "Kaysen K-CG1 Klassik Gitara 4/4 39\" Walnut Natural",
+    "name_ru": "Kaysen K-CG1 Классическая гитара 4/4 39\" Walnut Natural",
+    "name_en": "Kaysen K-CG1 Classical Guitar 4/4 39\" Walnut Natural"
+  },
+  {
+    "sku": "RM-411955",
+    "name": "Kaysen K-CG1 Klassik Gitara 4/4 39\" Sunburst",
+    "name_ru": "Kaysen K-CG1 Классическая гитара 4/4 39\" Sunburst",
+    "name_en": "Kaysen K-CG1 Classical Guitar 4/4 39\" Sunburst"
+  },
+  {
+    "sku": "RM-135521",
+    "name": "Kaysen K-CG1-EQ Elektro-klassik Gitara 4/4 39\" Natural (EQ-7545R)",
+    "name_ru": "Kaysen K-CG1-EQ Электроклассическая гитара 4/4 39\" Natural (EQ-7545R)",
+    "name_en": "Kaysen K-CG1-EQ Acoustic-Electric Classical Guitar 4/4 39\" Natural (EQ-7545R)"
+  },
+  {
+    "sku": "RM-964066",
+    "name": "Kaysen K-CG1-EQ Elektro-klassik Gitara 4/4 39\" Black (EQ-7545R)",
+    "name_ru": "Kaysen K-CG1-EQ Электроклассическая гитара 4/4 39\" Black (EQ-7545R)",
+    "name_en": "Kaysen K-CG1-EQ Acoustic-Electric Classical Guitar 4/4 39\" Black (EQ-7545R)"
+  },
+  {
+    "sku": "RM-544328",
+    "name": "Kaysen K-CG1-EQ Elektro-klassik Gitara 4/4 39\" Blue (EQ-7545R)",
+    "name_ru": "Kaysen K-CG1-EQ Электроклассическая гитара 4/4 39\" Blue (EQ-7545R)",
+    "name_en": "Kaysen K-CG1-EQ Acoustic-Electric Classical Guitar 4/4 39\" Blue (EQ-7545R)"
+  },
+  {
+    "sku": "RM-741655",
+    "name": "Kaysen K-CG1-EQ Elektro-klassik Gitara 4/4 39\" Red (EQ-7545R)",
+    "name_ru": "Kaysen K-CG1-EQ Электроклассическая гитара 4/4 39\" Red (EQ-7545R)",
+    "name_en": "Kaysen K-CG1-EQ Acoustic-Electric Classical Guitar 4/4 39\" Red (EQ-7545R)"
+  },
+  {
+    "sku": "RM-830730",
+    "name": "Kaysen K-CG1-EQ Elektro-klassik Gitara 4/4 39\" Sunburst (EQ-7545R)",
+    "name_ru": "Kaysen K-CG1-EQ Электроклассическая гитара 4/4 39\" Sunburst (EQ-7545R)",
+    "name_en": "Kaysen K-CG1-EQ Acoustic-Electric Classical Guitar 4/4 39\" Sunburst (EQ-7545R)"
+  },
+  {
+    "sku": "RM-292019",
+    "name": "Kaysen K-CG1-EQ Elektro-klassik Gitara 4/4 39\" Walnut (EQ-7545R)",
+    "name_ru": "Kaysen K-CG1-EQ Электроклассическая гитара 4/4 39\" Walnut (EQ-7545R)",
+    "name_en": "Kaysen K-CG1-EQ Acoustic-Electric Classical Guitar 4/4 39\" Walnut (EQ-7545R)"
+  },
+  {
+    "sku": "RM-910778",
+    "name": "Kaysen K-CG1-EQ Elektro-klassik Gitara 4/4 39\" Yellow Natural (EQ-7545R)",
+    "name_ru": "Kaysen K-CG1-EQ Электроклассическая гитара 4/4 39\" Yellow Natural (EQ-7545R)",
+    "name_en": "Kaysen K-CG1-EQ Acoustic-Electric Classical Guitar 4/4 39\" Yellow Natural"
+  },
+  {
+    "sku": "RM-435049",
+    "name": "Kaysen K-CG1-CQ-EQ Elektro-klassik Gitara 4/4 39\" Kəsikli Natural (EQ)",
+    "name_ru": "Kaysen K-CG1-CQ-EQ Электроклассическая гитара 4/4 39\" Cutaway Natural (EQ)",
+    "name_en": "Kaysen K-CG1-CQ-EQ Acoustic-Electric Classical Guitar 4/4 39\" Cutaway Natural"
+  },
+  {
+    "sku": "RM-825404",
+    "name": "Kaysen K-CG1-CQ-EQ Elektro-klassik Gitara 4/4 39\" Kəsikli Black (EQ)",
+    "name_ru": "Kaysen K-CG1-CQ-EQ Электроклассическая гитара 4/4 39\" Cutaway Black (EQ)",
+    "name_en": "Kaysen K-CG1-CQ-EQ Acoustic-Electric Classical Guitar 4/4 39\" Cutaway Black"
+  },
+  {
+    "sku": "RM-209365",
+    "name": "Kaysen K-CG1-CQ-EQ Elektro-klassik Gitara 4/4 39\" Kəsikli Sunburst (EQ)",
+    "name_ru": "Kaysen K-CG1-CQ-EQ Электроклассическая гитара 4/4 39\" Cutaway Sunburst (EQ)",
+    "name_en": "Kaysen K-CG1-CQ-EQ Acoustic-Electric Classical Guitar 4/4 39\" Cutaway Sunburst"
+  },
+  {
+    "sku": "RM-708661",
+    "name": "Kaysen K-CG1-CQ-EQ Elektro-klassik Gitara 4/4 39\" Kəsikli Yellow Natural",
+    "name_ru": "Kaysen K-CG1-CQ-EQ Электроклассическая гитара 4/4 39\" Cutaway Yellow Natural",
+    "name_en": "Kaysen K-CG1-CQ-EQ Acoustic-Electric Classical Guitar 4/4 39\" Cutaway YN"
+  },
+  {
+    "sku": "RM-072018",
+    "name": "Kaysen KST-216INT Ağıllı Elektro Gitara Stratocaster HSS Black (DSP/Bluetooth)",
+    "name_ru": "Kaysen KST-216INT Смарт-электрогитара Stratocaster HSS Black (DSP-процессор/Bluetooth)",
+    "name_en": "Kaysen KST-216INT Smart Electric Guitar Stratocaster HSS Black (DSP/Bluetooth)"
+  },
+  {
+    "sku": "RM-597882",
+    "name": "Kaysen KST-216INT Ağıllı Elektro Gitara Stratocaster HSS Cherry Sunburst (DSP/Bluetooth)",
+    "name_ru": "Kaysen KST-216INT Смарт-электрогитара Stratocaster HSS Cherry Sunburst (DSP/Bluetooth)",
+    "name_en": "Kaysen KST-216INT Smart Electric Guitar Strat HSS Cherry Sunburst (DSP/BT)"
+  },
+  {
+    "sku": "RM-323094",
+    "name": "Kaysen KST-210-S Elektro Gitara Stratocaster HSS White (Yandırılmış Ağcaqayın)",
+    "name_ru": "Kaysen KST-210-S Электрогитара Stratocaster HSS White (Обожженный клен)",
+    "name_en": "Kaysen KST-210-S Electric Guitar Stratocaster HSS White (Roasted Maple)"
+  },
+  {
+    "sku": "RM-589129",
+    "name": "Kaysen KST-210-S Elektro Gitara Stratocaster HSS Black (Yandırılmış Ağcaqayın)",
+    "name_ru": "Kaysen KST-210-S Электрогитара Stratocaster HSS Black (Обожженный клен)",
+    "name_en": "Kaysen KST-210-S Electric Guitar Stratocaster HSS Black (Roasted Maple)"
+  },
+  {
+    "sku": "RM-113771",
+    "name": "Kaysen KST-210-S Elektro Gitara Stratocaster HSS Sunburst (Yandırılmış Ağcaqayın)",
+    "name_ru": "Kaysen KST-210-S Электрогитара Stratocaster HSS Sunburst (Обожженный клен)",
+    "name_en": "Kaysen KST-210-S Electric Guitar Stratocaster HSS Sunburst (Roasted Maple)"
+  },
+  {
+    "sku": "RM-281016",
+    "name": "Kaysen KST-210-S Elektro Gitara Stratocaster HSS Silver Metallic",
+    "name_ru": "Kaysen KST-210-S Электрогитара Stratocaster HSS Silver Metallic",
+    "name_en": "Kaysen KST-210-S Electric Guitar Stratocaster HSS Silver Metallic"
+  },
+  {
+    "sku": "RM-671043",
+    "name": "Kaysen KST-210-S Elektro Gitara Stratocaster HSS Pink",
+    "name_ru": "Kaysen KST-210-S Электрогитара Stratocaster HSS Pink",
+    "name_en": "Kaysen KST-210-S Electric Guitar Stratocaster HSS Pink"
+  },
+  {
+    "sku": "RM-034122",
+    "name": "Kaysen KST-210-S Elektro Gitara Stratocaster HSS Red",
+    "name_ru": "Kaysen KST-210-S Электрогитара Stratocaster HSS Red",
+    "name_en": "Kaysen KST-210-S Electric Guitar Stratocaster HSS Red"
+  },
+  {
+    "sku": "RM-945992",
+    "name": "Kaysen KST-210-S Elektro Gitara Stratocaster HSS Green",
+    "name_ru": "Kaysen KST-210-S Электрогитара Stratocaster HSS Green",
+    "name_en": "Kaysen KST-210-S Electric Guitar Stratocaster HSS Green"
+  },
+  {
+    "sku": "RM-676525",
+    "name": "Kaysen KST-210-S Elektro Gitara Stratocaster HSS Blue",
+    "name_ru": "Kaysen KST-210-S Электрогитара Stratocaster HSS Blue",
+    "name_en": "Kaysen KST-210-S Electric Guitar Stratocaster HSS Blue"
+  },
+  {
+    "sku": "RM-532425",
+    "name": "Kaysen KST-210-S Elektro Gitara Stratocaster HSS Metallic Natural",
+    "name_ru": "Kaysen KST-210-S Электрогитара Stratocaster HSS Metallic Natural",
+    "name_en": "Kaysen KST-210-S Electric Guitar Stratocaster HSS Metallic Natural"
+  },
+  {
+    "sku": "RM-505412",
+    "name": "Kaysen KST-210-H Elektro Gitara Stratocaster HSS Metallic Red (Paslanmaz Pərdələr)",
+    "name_ru": "Kaysen KST-210-H Электрогитара Stratocaster HSS Metallic Red (Лады нерж. сталь)",
+    "name_en": "Kaysen KST-210-H Electric Guitar Strat HSS Metallic Red (Stainless Frets)"
+  },
+  {
+    "sku": "RM-140784",
+    "name": "Kaysen KST-210BABY Səyahət Elektro Gitarası 34\" Mini Strat Pink",
+    "name_ru": "Kaysen KST-210BABY Дорожная электрогитара 34\" Mini Strat Pink",
+    "name_en": "Kaysen KST-210BABY Travel Electric Guitar 34\" Mini Strat Pink"
+  },
+  {
+    "sku": "RM-354898",
+    "name": "Kaysen KST-217 Elektro Gitara Stratocaster HSS Tiger Maple 3-Tone Sunburst",
+    "name_ru": "Kaysen KST-217 Электрогитара Stratocaster Tiger Maple 3-Tone Sunburst",
+    "name_en": "Kaysen KST-217 Electric Guitar Strat HSS Tiger Maple 3-Tone Sunburst"
+  },
+  {
+    "sku": "RM-461668",
+    "name": "Kaysen KST-218 Elektro Gitara Stratocaster HSS Paisley Black Sunburst",
+    "name_ru": "Kaysen KST-218 Электрогитара Stratocaster Paisley Black Sunburst",
+    "name_en": "Kaysen KST-218 Electric Guitar Strat HSS Paisley Black Sunburst"
+  },
+  {
+    "sku": "RM-591929",
+    "name": "Kaysen KST-300 Elektro Gitara Stratocaster SSS Glitter Black Sparkle",
+    "name_ru": "Kaysen KST-300 Электрогитара Stratocaster Glitter Black Sparkle",
+    "name_en": "Kaysen KST-300 Electric Guitar Stratocaster SSS Glitter Black Sparkle"
+  },
+  {
+    "sku": "RM-640144",
+    "name": "Kaysen KTL-110 Elektro Gitara Telecaster SS Brown",
+    "name_ru": "Kaysen KTL-110 Электрогитара Telecaster SS Brown",
+    "name_en": "Kaysen KTL-110 Electric Guitar Telecaster SS Brown"
+  },
+  {
+    "sku": "RM-190298",
+    "name": "Kaysen KTL-110 Elektro Gitara Telecaster SS Natural",
+    "name_ru": "Kaysen KTL-110 Электрогитара Telecaster SS Natural",
+    "name_en": "Kaysen KTL-110 Electric Guitar Telecaster SS Natural"
+  },
+  {
+    "sku": "RM-519993",
+    "name": "Kaysen KTL-110 Elektro Gitara Telecaster SS Black",
+    "name_ru": "Kaysen KTL-110 Электрогитара Telecaster SS Black",
+    "name_en": "Kaysen KTL-110 Electric Guitar Telecaster SS Black"
+  },
+  {
+    "sku": "RM-084332",
+    "name": "Kaysen KTL-110 Elektro Gitara Telecaster SS White",
+    "name_ru": "Kaysen KTL-110 Электрогитара Telecaster SS White",
+    "name_en": "Kaysen KTL-110 Electric Guitar Telecaster SS White"
+  },
+  {
+    "sku": "RM-405259",
+    "name": "Kaysen K-EG9 Elektro Gitara Singlecut LP-Style HH Sunburst",
+    "name_ru": "Kaysen K-EG9 Электрогитара Singlecut LP-Style HH Sunburst",
+    "name_en": "Kaysen K-EG9 Electric Guitar Singlecut LP-Style HH Sunburst"
+  },
+  {
+    "sku": "RM-314422",
+    "name": "Kaysen K-EG9 Elektro Gitara Singlecut LP-Style HH White",
+    "name_ru": "Kaysen K-EG9 Электрогитара Singlecut LP-Style HH White",
+    "name_en": "Kaysen K-EG9 Electric Guitar Singlecut LP-Style HH White"
+  },
+  {
+    "sku": "RM-003730",
+    "name": "Kaysen K-EG9 Elektro Gitara Singlecut LP-Style HH Black",
+    "name_ru": "Kaysen K-EG9 Электрогитара Singlecut LP-Style HH Black",
+    "name_en": "Kaysen K-EG9 Electric Guitar Singlecut LP-Style HH Black"
+  },
+  {
+    "sku": "RM-174143",
+    "name": "Kaysen K-EG35 Elektro Gitara Qabarıq Qapaq HH White (Arched Top)",
+    "name_ru": "Kaysen K-EG35 Электрогитара Арочный топ HH White (Arched Top)",
+    "name_en": "Kaysen K-EG35 Electric Guitar Arched Top HH White"
+  },
+  {
+    "sku": "RM-947823",
+    "name": "Kaysen K-EG35 Elektro Gitara Qabarıq Qapaq HH Red (Arched Top)",
+    "name_ru": "Kaysen K-EG35 Электрогитара Арочный топ HH Red (Arched Top)",
+    "name_en": "Kaysen K-EG35 Electric Guitar Arched Top HH Red"
+  },
+  {
+    "sku": "RM-951179",
+    "name": "Kaysen K-EG35 Elektro Gitara Qabarıq Qapaq HH Blue (Arched Top)",
+    "name_ru": "Kaysen K-EG35 Электрогитара Арочный топ HH Blue (Arched Top)",
+    "name_en": "Kaysen K-EG35 Electric Guitar Arched Top HH Blue"
+  },
+  {
+    "sku": "RM-673591",
+    "name": "Kaysen K-EG35 Elektro Gitara Qabarıq Qapaq HH Black (Arched Top)",
+    "name_ru": "Kaysen K-EG35 Электрогитара Арочный топ HH Black (Arched Top)",
+    "name_en": "Kaysen K-EG35 Electric Guitar Arched Top HH Black"
+  },
+  {
+    "sku": "RM-203092",
+    "name": "Kaysen K-EG35 Elektro Gitara Qabarıq Qapaq HH Silver (Arched Top)",
+    "name_ru": "Kaysen K-EG35 Электрогитара Арочный топ HH Silver (Arched Top)",
+    "name_en": "Kaysen K-EG35 Electric Guitar Arched Top HH Silver"
+  },
+  {
+    "sku": "RM-101525",
+    "name": "Kaysen KIE-220 Elektro Gitara Superstrat 24F Xamelyon (HH)",
+    "name_ru": "Kaysen KIE-220 Электрогитара Superstrat 24F Хамелеон (HH)",
+    "name_en": "Kaysen KIE-220 Electric Guitar Superstrat 24F Chameleon (HH)"
+  },
+  {
+    "sku": "RM-460691",
+    "name": "Kaysen KSG-530 Səhnə Elektro Gitarası Superstrat HH (Coil Tap)",
+    "name_ru": "Kaysen KSG-530 Сценическая электрогитара Superstrat HH (Отсечка катушек)",
+    "name_en": "Kaysen KSG-530 Stage Electric Guitar Superstrat HH (Coil Tap)"
+  },
+  {
+    "sku": "RM-801815",
+    "name": "Kaysen KST-650 Pro Səhnə Elektro Gitarası Superstrat HH",
+    "name_ru": "Kaysen KST-650 Pro Сценическая электрогитара Superstrat HH",
+    "name_en": "Kaysen KST-650 Pro Stage Electric Guitar Superstrat HH"
+  },
+  {
+    "sku": "RM-043283",
+    "name": "Kaysen KIB-200 Bas Gitara 4-Simli Precision-Jazz Sunburst",
+    "name_ru": "Kaysen KIB-200 Бас-гитара 4-струнная Precision-Jazz Sunburst",
+    "name_en": "Kaysen KIB-200 4-String Bass Guitar Precision-Jazz Sunburst"
+  },
+  {
+    "sku": "RM-550241",
+    "name": "Kaysen KIB-200 Bas Gitara 4-Simli Precision-Jazz Black",
+    "name_ru": "Kaysen KIB-200 Бас-гитара 4-струнная Precision-Jazz Black",
+    "name_en": "Kaysen KIB-200 4-String Bass Guitar Precision-Jazz Black"
+  },
+  {
+    "sku": "RM-675851",
+    "name": "Kaysen KIB-200 Bas Gitara 4-Simli Precision-Jazz Blue",
+    "name_ru": "Kaysen KIB-200 Бас-гитара 4-струнная Precision-Jazz Blue",
+    "name_en": "Kaysen KIB-200 4-String Bass Guitar Precision-Jazz Blue"
+  },
+  {
+    "sku": "RM-518717",
+    "name": "Kaysen KIB-200 Bas Gitara 4-Simli Precision-Jazz Red",
+    "name_ru": "Kaysen KIB-200 Бас-гитара 4-струнная Precision-Jazz Red",
+    "name_en": "Kaysen KIB-200 4-String Bass Guitar Precision-Jazz Red"
+  },
+  {
+    "sku": "RM-162551",
+    "name": "Kaysen KHB100 Başsız Bas Gitara 4-Simli Headless Matte Grey",
+    "name_ru": "Kaysen KHB100 Безголовая бас-гитара 4-струнная Headless Matte Grey",
+    "name_en": "Kaysen KHB100 Headless 4-String Bass Guitar Matte Grey"
+  },
+  {
+    "sku": "RM-200903",
+    "name": "Kaysen KPB-10 Bas Gitara 4-Simli Precision Bass Sunburst",
+    "name_ru": "Kaysen KPB-10 Бас-гитара 4-струнная Precision Bass Sunburst",
+    "name_en": "Kaysen KPB-10 4-String Bass Guitar Precision Bass Sunburst"
+  },
+  {
+    "sku": "RM-208325",
+    "name": "Kaysen KPB-10 Bas Gitara 4-Simli Precision Bass Red",
+    "name_ru": "Kaysen KPB-10 Бас-гитара 4-струнная Precision Bass Red",
+    "name_en": "Kaysen KPB-10 4-String Bass Guitar Precision Bass Red"
+  },
+  {
+    "sku": "RM-200173",
+    "name": "Kaysen KPB-10 Bas Gitara 4-Simli Precision Bass Black",
+    "name_ru": "Kaysen KPB-10 Бас-гитара 4-струнная Precision Bass Black",
+    "name_en": "Kaysen KPB-10 4-String Bass Guitar Precision Bass Black"
+  },
+  {
+    "sku": "RM-200995",
+    "name": "Kaysen KPB-10 Bas Gitara 4-Simli Precision Bass Blue",
+    "name_ru": "Kaysen KPB-10 Бас-гитара 4-струнная Precision Bass Blue",
+    "name_en": "Kaysen KPB-10 4-String Bass Guitar Precision Bass Blue"
+  },
+  {
+    "sku": "RM-557527",
+    "name": "Kaysen K-EG50 / K-EB50 Bas Gitara 5-Simli Bütöv Qrifli (Through-Neck)",
+    "name_ru": "Kaysen K-EG50 / K-EB50 Бас-гитара 5-струнная со сквозным грифом",
+    "name_en": "Kaysen K-EG50 / K-EB50 5-String Bass Guitar Through-Neck Solid"
+  },
+  {
+    "sku": "RM-847981",
+    "name": "Kaysen UK-U1-26 Ukulele Tenor 26\" Qabarıq Qapaq Yellow",
+    "name_ru": "Kaysen UK-U1-26 Укулеле тенор 26\" Arched Back Yellow",
+    "name_en": "Kaysen UK-U1-26 Tenor Ukulele 26\" Arched Back Yellow"
+  },
+  {
+    "sku": "RM-208552",
+    "name": "Kaysen UK-U1-26 Ukulele Tenor 26\" Qabarıq Qapaq Blue",
+    "name_ru": "Kaysen UK-U1-26 Укулеле тенор 26\" Arched Back Blue",
+    "name_en": "Kaysen UK-U1-26 Tenor Ukulele 26\" Arched Back Blue"
+  },
+  {
+    "sku": "RM-208568",
+    "name": "Kaysen UK-U1-26 Ukulele Tenor 26\" Qabarıq Qapaq Natural",
+    "name_ru": "Kaysen UK-U1-26 Укулеле тенор 26\" Arched Back Natural",
+    "name_en": "Kaysen UK-U1-26 Tenor Ukulele 26\" Arched Back Natural"
+  },
+  {
+    "sku": "RM-208530",
+    "name": "Kaysen UK-U1-26 Ukulele Tenor 26\" Qabarıq Qapaq Black",
+    "name_ru": "Kaysen UK-U1-26 Укулеле тенор 26\" Arched Back Black",
+    "name_en": "Kaysen UK-U1-26 Tenor Ukulele 26\" Arched Back Black"
+  },
+  {
+    "sku": "RM-200993",
+    "name": "Kaysen UK-U2-24 Ukulele Konsert 24\" Brown Wood",
+    "name_ru": "Kaysen UK-U2-24 Укулеле концерт 24\" Brown Wood",
+    "name_en": "Kaysen UK-U2-24 Concert Ukulele 24\" Brown Wood"
+  },
+  {
+    "sku": "RM-269689",
+    "name": "Kaysen UK-U2-24 Ukulele Konsert 24\" Cherry Sunburst",
+    "name_ru": "Kaysen UK-U2-24 Укулеле концерт 24\" Cherry Sunburst",
+    "name_en": "Kaysen UK-U2-24 Concert Ukulele 24\" Cherry Sunburst"
+  },
+  {
+    "sku": "RM-760081",
+    "name": "Kaysen UK-KSC / KSD-26 Ukulele Tenor 26\" Massiv Şam Üzlüklü",
+    "name_ru": "Kaysen UK-KSC / KSD-26 Укулеле тенор 26\" Массив ели",
+    "name_en": "Kaysen UK-KSC / KSD-26 Tenor Ukulele 26\" Solid Spruce Top"
+  },
+  {
+    "sku": "RM-797604",
+    "name": "Tayste TUK210-26 / TUK-200 Ukulele Tenor 26\" Kəsikli Brown",
+    "name_ru": "Tayste TUK210-26 / TUK-200 Укулеле тенор 26\" Cutaway Brown",
+    "name_en": "Tayste TUK210-26 / TUK-200 Tenor Ukulele 26\" Cutaway Brown"
+  },
+  {
+    "sku": "RM-579379",
+    "name": "Tayste TUG-10C Gitaralele 30\" Kəsikli Natural (Travel Kit)",
+    "name_ru": "Tayste TUG-10C Гитаралеле 30\" Cutaway Natural (Travel Kit)",
+    "name_en": "Tayste TUG-10C Guitalele 30\" Cutaway Natural (Travel Kit)"
+  },
+  {
+    "sku": "RM-189438",
+    "name": "Tayste TUG-20C Gitaralele 30\" Kəsikli Sapele Brown",
+    "name_ru": "Tayste TUG-20C Гитаралеле 30\" Cutaway Sapele Brown",
+    "name_en": "Tayste TUG-20C Guitalele 30\" Cutaway Sapele Brown"
+  },
+  {
+    "sku": "RM-593130",
+    "name": "Tayste Kaxon Zərb Aləti Çantalı (Cajon Drum)",
+    "name_ru": "Tayste Кахон ударный перкуссионный с чехлом (Cajon Drum)",
+    "name_en": "Tayste Percussion Cajon Drum with Gig Bag"
+  },
+  {
+    "sku": "RM-907056",
+    "name": "Kaysen RX-TG-80 Gitara Kombosu 80W (10\" Dinamik, Mikrofon Girişli)",
+    "name_ru": "Kaysen RX-TG-80 Гитарный комбоусилитель 80 Вт (Динамик 10\", микрофонный вход)",
+    "name_en": "Kaysen RX-TG-80 Guitar Amplifier Combo 80W (10\" Speaker, Mic Input)"
+  },
+  {
+    "sku": "RM-181006",
+    "name": "Kaysen YX-TG-60 / RX-TG-60 Gitara Kombosu 60W",
+    "name_ru": "Kaysen YX-TG-60 / RX-TG-60 Гитарный комбоусилитель 60 Вт",
+    "name_en": "Kaysen YX-TG-60 / RX-TG-60 Guitar Amplifier Combo 60W"
+  },
+  {
+    "sku": "RM-710365",
+    "name": "Kaysen YX-TG-40R Akustik və Elektro Gitara Kombosu 40W (Reverb/EQ)",
+    "name_ru": "Kaysen YX-TG-40R Комбоусилитель для акустики и электрогитары 40 Вт (Reverb/EQ)",
+    "name_en": "Kaysen YX-TG-40R Acoustic & Electric Guitar Combo 40W (Reverb/EQ)"
+  },
+  {
+    "sku": "RM-447382",
+    "name": "Kaysen RX-TG-40U Çoxfunksiyalı Gitara Kombosu 40W (USB/AUX)",
+    "name_ru": "Kaysen RX-TG-40U Универсальный гитарный комбоусилитель 40 Вт (USB/AUX)",
+    "name_en": "Kaysen RX-TG-40U Multi-function Guitar Combo 40W (USB/AUX)"
+  },
+  {
+    "sku": "RM-946113",
+    "name": "Kaysen RX-TG-40MIC İkikanallı Gitara Kombosu 40W (Gitara + Vokal)",
+    "name_ru": "Kaysen RX-TG-40MIC Двухканальный комбоусилитель 40 Вт (Гитара + Вокал)",
+    "name_en": "Kaysen RX-TG-40MIC 2-Channel Guitar Amplifier 40W (Guitar + Vocal)"
+  },
+  {
+    "sku": "RM-573446",
+    "name": "Kaysen RX-TG-30W Gitara Kombosu 30W (Clean/Overdrive)",
+    "name_ru": "Kaysen RX-TG-30W Гитарный комбоусилитель 30 Вт (Clean/Overdrive)",
+    "name_en": "Kaysen RX-TG-30W Guitar Amplifier Combo 30W (Clean/Overdrive)"
+  },
+  {
+    "sku": "RM-147454",
+    "name": "Kaysen YX-TG-25 Gitara Kombosu 25W (8\" Dinamik, Qulaqlıq çıxışlı)",
+    "name_ru": "Kaysen YX-TG-25 Гитарный комбоусилитель 25 Вт (Динамик 8\", выход на наушники)",
+    "name_en": "Kaysen YX-TG-25 Guitar Amplifier Combo 25W (8\" Speaker, Headphone Out)"
+  },
+  {
+    "sku": "RM-418838",
+    "name": "Kaysen RX-TG-15W Portativ Gitara Kombosu 15W",
+    "name_ru": "Kaysen RX-TG-15W Портативный гитарный комбоусилитель 15 Вт",
+    "name_en": "Kaysen RX-TG-15W Portable Guitar Amplifier Combo 15W"
+  },
+  {
+    "sku": "RM-662157",
+    "name": "Kaysen YX-15W Ev üçün Məşq Gitara Kombosu 15W",
+    "name_ru": "Kaysen YX-15W Домашний тренировочный комбоусилитель 15 Вт",
+    "name_en": "Kaysen YX-15W Practice Guitar Amplifier Combo 15W"
+  },
+  {
+    "sku": "RM-344943",
+    "name": "Kaysen RX-TG-10 Mini Məşq Gitara Kombosu 10W",
+    "name_ru": "Kaysen RX-TG-10 Мини-комбоусилитель тренировочный 10 Вт",
+    "name_en": "Kaysen RX-TG-10 Mini Practice Guitar Combo 10W"
+  },
+  {
+    "sku": "RM-792101",
+    "name": "Kaysen EQ-7545R Akustik Gitara üçün 4-Zolaqlı Aktiv Ekvalayzer Pyezo",
+    "name_ru": "Kaysen EQ-7545R Активный 4-полосный пьезотемброблок для акустики",
+    "name_en": "Kaysen EQ-7545R 4-Band Active Acoustic Guitar Preamp EQ"
+  },
+  {
+    "sku": "RM-685718",
+    "name": "Kaysen EQ-PS-500 Akustik Gitara üçün 5-Zolaqlı Aktiv Ekvalayzer",
+    "name_ru": "Kaysen EQ-PS-500 Активный 5-полосный темброблок для акустики",
+    "name_en": "Kaysen EQ-PS-500 5-Band Acoustic Guitar Preamp Equalizer"
+  },
+  {
+    "sku": "RM-463639",
+    "name": "Kaysen EQ-KLT-17A Rəqəmsal LCD-Tünerli Ekvalayzer Preamp",
+    "name_ru": "Kaysen EQ-KLT-17A Врезной преамп для акустики с LCD-тюнером",
+    "name_en": "Kaysen EQ-KLT-17A Acoustic Guitar Preamp with Digital LCD Tuner"
+  },
+  {
+    "sku": "RM-199715",
+    "name": "Kaysen EQ-KLT-18A Mikrofonlu və Tünerli Peşəkar Preamp",
+    "name_ru": "Kaysen EQ-KLT-18A Преамп с микрофоном и тюнером Dual-Pickup",
+    "name_en": "Kaysen EQ-KLT-18A Professional Guitar Preamp with Mic & Tuner"
+  },
+  {
+    "sku": "RM-344869",
+    "name": "Kaysen RG-A50 Akustik Gitara üçün Yarı-Sərt Qoruyucu Çanta 41\" (20 mm süngər)",
+    "name_ru": "Kaysen RG-A50 Премиальный полужесткий чехол для акустики 41\" (Пена 20 мм)",
+    "name_en": "Kaysen RG-A50 Premium Padded Acoustic Guitar Gig Bag 41\" (20mm Foam)"
+  },
+  {
+    "sku": "RM-776301",
+    "name": "Kaysen RG-A80 Peşəkar Qalın Akustik Gitara Çantası 41\" Luxury Padding",
+    "name_ru": "Kaysen RG-A80 Профессиональный полужесткий чехол 41\" Luxury Padding",
+    "name_en": "Kaysen RG-A80 Professional Luxury Padded Acoustic Guitar Bag 41\""
+  },
+  {
+    "sku": "RM-394987",
+    "name": "Kaysen RG-A18 Klassik Gitara Çantası 39\" Nəfəsalan Kürklü (20 mm süngər)",
+    "name_ru": "Kaysen RG-A18 Чехол для классической гитары 39\" с сеткой (20 мм)",
+    "name_en": "Kaysen RG-A18 Classical Guitar Gig Bag 39\" Breathable Mesh (20mm)"
+  },
+  {
+    "sku": "RM-413696",
+    "name": "Kaysen RG-A18-41 Akustik Gitara Çantası Ağ Haşiyəli 41\" (20 mm süngər)",
+    "name_ru": "Kaysen RG-A18-41 Чехол для акустической гитары 41\" с белым кантом (20 мм)",
+    "name_en": "Kaysen RG-A18-41 Acoustic Guitar Bag 41\" White Piping (20mm)"
+  },
+  {
+    "sku": "RM-406451",
+    "name": "Gidoo RG-A15 Akustik Gitara Çantası Göy Haşiyəli 40/41\" (10 mm süngər)",
+    "name_ru": "Gidoo RG-A15 Чехол для акустической гитары 40-41\" с синим кантом (10 мм)",
+    "name_en": "Gidoo RG-A15 Acoustic Guitar Gig Bag 40/41\" Blue Piping (10mm)"
+  },
+  {
+    "sku": "RM-988074",
+    "name": "Gidoo RG-A16 Akustik Gitara Çantası Cins Parça 41\" (15 mm süngər)",
+    "name_ru": "Gidoo RG-A16 Чехол для акустической гитары 41\" Джинсовая ткань (15 мм)",
+    "name_en": "Gidoo RG-A16 Denim Fabric Acoustic Guitar Gig Bag 41\" (15mm)"
+  },
+  {
+    "sku": "RM-166175",
+    "name": "Kaysen RG-A14 Akustik Gitara Çantası Sarı Haşiyəli 41\" (8 mm süngər)",
+    "name_ru": "Kaysen RG-A14 Чехол для акустической гитары 41\" с желтым кантом (8 мм)",
+    "name_en": "Kaysen RG-A14 Acoustic Guitar Gig Bag 41\" Yellow Piping (8mm)"
+  },
+  {
+    "sku": "RM-253260",
+    "name": "Gidoo RG-A10 Standart Suya Davamlı Akustik Gitara Çantası 40/41\" (Cüt çiyinlik)",
+    "name_ru": "Gidoo RG-A10 Стандартный водостойкий чехол для акустики 40/41\" (Рюкзачный)",
+    "name_en": "Gidoo RG-A10 Standard Waterproof Acoustic Guitar Bag 40/41\" Backpack"
+  },
+  {
+    "sku": "RM-600863",
+    "name": "Gidoo RG-A11 Gitara Çantası Ön Cibli 36\" (3/4 Ölçü)",
+    "name_ru": "Gidoo RG-A11 Чехол для гитары 36\" (размер 3/4) с передним карманом",
+    "name_en": "Gidoo RG-A11 Guitar Gig Bag 36\" (3/4 Size) Front Pocket"
+  },
+  {
+    "sku": "RM-754266",
+    "name": "Kaysen RG-E12 Qalınlaşdırılmış Elektro Gitara Çantası (10 mm süngər)",
+    "name_ru": "Kaysen RG-E12 Чехол для электрогитары утепленный (Уплотнитель 10 мм)",
+    "name_en": "Kaysen RG-E12 Padded Electric Guitar Gig Bag (10mm Foam)"
+  },
+  {
+    "sku": "RM-411582",
+    "name": "Gidoo RG-E11 Standart Elektro Gitara Çantası (5 mm süngər)",
+    "name_ru": "Gidoo RG-E11 Чехол для электрогитары стандартный (Уплотнитель 5 мм)",
+    "name_en": "Gidoo RG-E11 Standard Electric Guitar Gig Bag (5mm Foam)"
+  },
+  {
+    "sku": "RM-856267",
+    "name": "Kaysen RG-B12 Qalınlaşdırılmış Bas Gitara Çantası (10 mm süngər)",
+    "name_ru": "Kaysen RG-B12 Чехол для бас-гитары утолщенный (Уплотнитель 10 мм)",
+    "name_en": "Kaysen RG-B12 Padded Bass Guitar Gig Bag (10mm Foam)"
+  },
+  {
+    "sku": "RM-281747",
+    "name": "Gidoo RG-B11 Yüngül Bas Gitara Çantası",
+    "name_ru": "Gidoo RG-B11 Чехол для бас-гитары облегченный",
+    "name_en": "Gidoo RG-B11 Lightweight Bass Guitar Gig Bag"
+  },
+  {
+    "sku": "RM-776788",
+    "name": "Kaysen RG-A17 Akustik Bas Gitara Çantası 41\"",
+    "name_ru": "Kaysen RG-A17 Чехол для акустической бас-гитары 41\"",
+    "name_en": "Kaysen RG-A17 Acoustic Bass Guitar Gig Bag 41\""
+  },
+  {
+    "sku": "RM-478778",
+    "name": "Gidoo RG-U15-21 Qalın Ukulele Çantası Soprano 21\" (10 mm süngər)",
+    "name_ru": "Gidoo RG-U15-21 Чехол для укулеле сопрано 21\" (Уплотнитель 10 мм)",
+    "name_en": "Gidoo RG-U15-21 Padded Soprano Ukulele Bag 21\" (10mm)"
+  },
+  {
+    "sku": "RM-415004",
+    "name": "Gidoo RG-U15-24 Qalın Ukulele Çantası Konsert 24\" (10 mm süngər)",
+    "name_ru": "Gidoo RG-U15-24 Чехол для укулеле концерт 24\" (Уплотнитель 10 мм)",
+    "name_en": "Gidoo RG-U15-24 Padded Concert Ukulele Bag 24\" (10mm)"
+  },
+  {
+    "sku": "RM-330777",
+    "name": "Gidoo RG-U15-26 Qalın Ukulele Çantası Tenor 26\" (10 mm süngər)",
+    "name_ru": "Gidoo RG-U15-26 Чехол для укулеле тенор 26\" (Уплотнитель 10 мм)",
+    "name_en": "Gidoo RG-U15-26 Padded Tenor Ukulele Bag 26\" (10mm)"
+  },
+  {
+    "sku": "RM-468289",
+    "name": "Gidoo RG-U11-21 Ukulele Çantası Soprano 21\" (5 mm süngər)",
+    "name_ru": "Gidoo RG-U11-21 Чехол для укулеле сопрано 21\" (Уплотнитель 5 мм)",
+    "name_en": "Gidoo RG-U11-21 Ukulele Gig Bag Soprano 21\" (5mm)"
+  },
+  {
+    "sku": "RM-651121",
+    "name": "Gidoo RG-U11-24 Ukulele Çantası Konsert 24\" (5 mm süngər)",
+    "name_ru": "Gidoo RG-U11-24 Чехол для укулеле концерт 24\" (Уплотнитель 5 мм)",
+    "name_en": "Gidoo RG-U11-24 Ukulele Gig Bag Concert 24\" (5mm)"
+  },
+  {
+    "sku": "RM-462381",
+    "name": "Gidoo RG-U11-26 Ukulele Çantası Tenor 26\" (5 mm süngər)",
+    "name_ru": "Gidoo RG-U11-26 Чехол для укулеле тенор 26\" (Уплотнитель 5 мм)",
+    "name_en": "Gidoo RG-U11-26 Ukulele Gig Bag Tenor 26\" (5mm)"
+  },
+  {
+    "sku": "RM-837308",
+    "name": "Gidoo RG-U10-21 Sadə Ukulele Çantası Soprano 21\"",
+    "name_ru": "Gidoo RG-U10-21 Чехол для укулеле тонкий сопрано 21\"",
+    "name_en": "Gidoo RG-U10-21 Standard Ukulele Gig Bag Soprano 21\""
+  },
+  {
+    "sku": "RM-919159",
+    "name": "Gidoo RG-U10-24 Sadə Ukulele Çantası Konsert 24\"",
+    "name_ru": "Gidoo RG-U10-24 Чехол для укулеле тонкий концерт 24\"",
+    "name_en": "Gidoo RG-U10-24 Standard Ukulele Gig Bag Concert 24\""
+  },
+  {
+    "sku": "RM-827992",
+    "name": "Gidoo RG-U10-26 Sadə Ukulele Çantası Tenor 26\"",
+    "name_ru": "Gidoo RG-U10-26 Чехол для укулеле тонкий тенор 26\"",
+    "name_en": "Gidoo RG-U10-26 Standard Ukulele Gig Bag Tenor 26\""
+  },
+  {
+    "sku": "RM-787763",
+    "name": "Tayste RG-UG11-30 Gitaralele Çantası 30\" (5 mm süngər)",
+    "name_ru": "Tayste RG-UG11-30 Чехол для гитаралеле 30\" (Уплотнитель 5 мм)",
+    "name_en": "Tayste RG-UG11-30 Guitalele Gig Bag 30\" (5mm)"
+  },
+  {
+    "sku": "RM-707489",
+    "name": "Gidoo RG-M11 Bənco və Mandolin Çantası",
+    "name_ru": "Gidoo RG-M11 Чехол для банджо и мандолины",
+    "name_en": "Gidoo RG-M11 Banjo & Mandolin Gig Bag"
+  },
+  {
+    "sku": "RM-394449",
+    "name": "Gidoo RH-A11 Akustik Gitara üçün Qəlibli Termokeys 40/41\" (Foam Case)",
+    "name_ru": "Gidoo RH-A11 Легкий формованный термокейс для акустики 40/41\" (Foam Case)",
+    "name_en": "Gidoo RH-A11 Molded Lightweight Foam Case for Acoustic Guitar 40/41\""
+  },
+  {
+    "sku": "RM-539047",
+    "name": "Gidoo RH-A10 Akustik Gitara üçün Sərt Ağac Keys 41\" (Tolex)",
+    "name_ru": "Gidoo RH-A10 Жесткий кейс для акустической гитары 41\" (Фанера/Толекс)",
+    "name_en": "Gidoo RH-A10 Hardshell Wooden Acoustic Guitar Case 41\" (Tolex)"
+  },
+  {
+    "sku": "RM-206389",
+    "name": "Gidoo RH-C11 Klassik Gitara üçün Qəlibli Termokeys 39\" 4/4 (Foam Case)",
+    "name_ru": "Gidoo RH-C11 Легкий формованный термокейс для классики 39\" 4/4 (Foam Case)",
+    "name_en": "Gidoo RH-C11 Molded Lightweight Classical Guitar Foam Case 39\" 4/4"
+  },
+  {
+    "sku": "RM-205567",
+    "name": "Gidoo RH-C10 Klassik Gitara üçün Sərt Ağac Keys 39\" 4/4",
+    "name_ru": "Gidoo RH-C10 Жесткий деревянный кейс для классической гитары 39\" 4/4",
+    "name_en": "Gidoo RH-C10 Hardshell Wooden Classical Guitar Case 39\" 4/4"
+  },
+  {
+    "sku": "RM-205247",
+    "name": "Gidoo RH-E10-F Elektro Gitara üçün Düzbucaqlı Sərt Ağac Kofr Gold/Chrome",
+    "name_ru": "Gidoo RH-E10-F Жесткий деревянный кофр для электрогитары (Прямоугольный)",
+    "name_en": "Gidoo RH-E10-F Rectangular Hardshell Electric Guitar Case Gold/Chrome"
+  },
+  {
+    "sku": "RM-206479",
+    "name": "Gidoo RH-E10-S Elektro Gitara üçün Formaçıxıntılı Sərt Ağac Keys",
+    "name_ru": "Gidoo RH-E10-S Фигурный жесткий кейс для электрогитары",
+    "name_en": "Gidoo RH-E10-S Shaped Hardshell Electric Guitar Case"
+  },
+  {
+    "sku": "RM-205472",
+    "name": "Gidoo RH-B10-F Bas Gitara üçün Düzbucaqlı Sərt Diplomat Kofr",
+    "name_ru": "Gidoo RH-B10-F Жесткий деревянный кейс для бас-гитары (Дипломат)",
+    "name_en": "Gidoo RH-B10-F Rectangular Hardshell Bass Guitar Case"
+  },
+  {
+    "sku": "RM-205354",
+    "name": "Gidoo RH-B10-S Bas Gitara üçün Tikili Sərt Ağac Keys",
+    "name_ru": "Gidoo RH-B10-S Фигурный жесткий кейс для бас-гитары",
+    "name_en": "Gidoo RH-B10-S Shaped Hardshell Bass Guitar Case"
+  },
+  {
+    "sku": "RM-472654",
+    "name": "Gidoo RH-V11 Violonçel üçün Qəlibli Təkərli Termokeys 4/4",
+    "name_ru": "Gidoo RH-V11 Формованный облегченный термокейс для виолончели 4/4",
+    "name_en": "Gidoo RH-V11 Molded Cello Foam Case with Wheels 4/4"
+  },
+  {
+    "sku": "RM-427097",
+    "name": "Kaysen RF-C20 Təkli Döşəməüstü Gitara Dayağı (Boyun qıfıllı)",
+    "name_ru": "Kaysen RF-C20 Напольная стойка для гитары треножная (с фиксатором грифа)",
+    "name_en": "Kaysen RF-C20 Single Tripod Guitar Stand with Neck Lock"
+  },
+  {
+    "sku": "RM-920474",
+    "name": "Kaysen RF-C21 İkili Döşəməüstü Gitara Dayağı (2 Alət üçün)",
+    "name_ru": "Kaysen RF-C21 Напольная двойная стойка для двух гитар",
+    "name_en": "Kaysen RF-C21 Double Upright Guitar Stand (For 2 Guitars)"
+  },
+  {
+    "sku": "RM-754119",
+    "name": "Kaysen RF-C22 Üçlü Döşəməüstü Gitara Dayağı (3 Alət üçün)",
+    "name_ru": "Kaysen RF-C22 Напольная тройная стойка для трех гитар (Подвес за гриф)",
+    "name_en": "Kaysen RF-C22 Triple Upright Guitar Stand (For 3 Guitars)"
+  },
+  {
+    "sku": "RM-967421",
+    "name": "Kaysen RF-A10 Qatlanan Metal Not Dayağı Püpiter (73-130 sm)",
+    "name_ru": "Kaysen RF-A10 Складной металлический пюпитр для нот (Высота 73–130 см)",
+    "name_en": "Kaysen RF-A10 Folding Metal Sheet Music Stand (73-130cm)"
+  },
+  {
+    "sku": "RM-395685",
+    "name": "Kaysen RF-A15 Peşəkar Deşikli Orkestr Püpiteri",
+    "name_ru": "Kaysen RF-A15 Профессиональный оркестровый пюпитр с перфорацией",
+    "name_en": "Kaysen RF-A15 Professional Perforated Sheet Music Stand"
+  },
+  {
+    "sku": "RM-939115",
+    "name": "Kaysen RF-A15 Mikrofon Girişli Peşəkar Deşikli Püpiter",
+    "name_ru": "Kaysen RF-A15 Оркестровый пюпитр с перфорацией и микрофонной планкой",
+    "name_en": "Kaysen RF-A15 Sheet Music Stand with Mic Mount Plate"
+  },
+  {
+    "sku": "RM-842574",
+    "name": "Gidoo RF-B10 Qısa Qollu Gitara Divar Dayağı",
+    "name_ru": "Gidoo RF-B10 Настенный крюк-держатель для гитары (Короткий)",
+    "name_en": "Gidoo RF-B10 Short Arm Guitar Wall Hanger"
+  },
+  {
+    "sku": "RM-137702",
+    "name": "Gidoo RF-B20 Uzun Qollu Gitara Divar Dayağı",
+    "name_ru": "Gidoo RF-B20 Настенный крюк-держатель для гитары (Удлиненный вынос)",
+    "name_en": "Gidoo RF-B20 Long Arm Guitar Wall Hanger"
+  },
+  {
+    "sku": "RM-577682",
+    "name": "Gidoo RF-B14 Taxta Əsaslı Dekorativ Gitara Divar Dayağı",
+    "name_ru": "Gidoo RF-B14 Настенный гитарный держатель на деревянной площадке",
+    "name_en": "Gidoo RF-B14 Wooden Base Guitar Wall Hanger"
+  },
+  {
+    "sku": "RM-646444",
+    "name": "Kaysen RF-H10 Qatlanan Metal Gitara Ayaq Dayağı",
+    "name_ru": "Kaysen RF-H10 Подставка под ногу гитариста металлическая складная",
+    "name_en": "Kaysen RF-H10 Folding Metal Guitar Footrest"
+  },
+  {
+    "sku": "RM-330693",
+    "name": "Kaysen RF-C16 Erqonomik Klassik Gitara Dizlik Dayağı (Vakuumlu)",
+    "name_ru": "Kaysen RF-C16 Эргономичный суппорт-подставка под обечайку гитары (На присосках)",
+    "name_en": "Kaysen RF-C16 Ergonomic Classical Guitar Support (Suction Cups)"
+  },
+  {
+    "sku": "RM-146710",
+    "name": "Gidoo RF-E10 Sintezator üçün Təkli X-Dayaq",
+    "name_ru": "Gidoo RF-E10 Стойка для синтезатора одинарная X-образная",
+    "name_en": "Gidoo RF-E10 Single-X Keyboard Stand"
+  },
+  {
+    "sku": "RM-272080",
+    "name": "Gidoo RF-E12 Klaviş Dayağı üçün Əlavə 2-ci Mərtəbə",
+    "name_ru": "Gidoo RF-E12 Дополнительный второй ярус для клавишной стойки",
+    "name_en": "Gidoo RF-E12 2nd Tier Add-on for Keyboard Stand"
+  },
+  {
+    "sku": "RM-856616",
+    "name": "Gidoo RF-S6 Dinamik və Monitor üçün Metal Döşəməüstü Dayaq",
+    "name_ru": "Gidoo RF-S6 Напольная металлическая стойка для колонок и мониторов",
+    "name_en": "Gidoo RF-S6 Metal Speaker Tripod Stand"
+  },
+  {
+    "sku": "RM-204771",
+    "name": "Gidoo RF-S7 Dəmir Qalın Dinamik Dayağı (Stoyka)",
+    "name_ru": "Gidoo RF-S7 Усиленная напольная стойка для акустических систем (Сталь)",
+    "name_en": "Gidoo RF-S7 Heavy Duty Iron PA Speaker Stand"
+  },
+  {
+    "sku": "RM-420936",
+    "name": "Gidoo GSW-19 Qatlanan Alt və Tenor Saksofon Dayağı",
+    "name_ru": "Gidoo GSW-19 Напольная складная стойка для альт/тенор саксофона",
+    "name_en": "Gidoo GSW-19 Folding Alto & Tenor Saxophone Stand"
+  },
+  {
+    "sku": "RM-825827",
+    "name": "The Rose RX-A30 Akustik Gitara Simləri Dəsti (011-050 Fosfor Bürünc)",
+    "name_ru": "The Rose RX-A30 Комплект струн для акустической гитары (011-050 Бронза)",
+    "name_en": "The Rose RX-A30 Acoustic Guitar Strings Set (011-050 Phosphor Bronze)"
+  },
+  {
+    "sku": "RM-700722",
+    "name": "The Rose RX-A40 Akustik Gitara üçün Rəngli Simlər Dəsti",
+    "name_ru": "The Rose RX-A40 Комплект цветных струн для акустической гитары",
+    "name_en": "The Rose RX-A40 Multicolor Coated Acoustic Guitar Strings Set"
+  },
+  {
+    "sku": "RM-541696",
+    "name": "Kaysen RX-A12 12-Simli Akustik Gitara üçün Simlər Dəsti (10-45)",
+    "name_ru": "Kaysen RX-A12 Комплект струн для 12-струнной акустической гитары (10-45)",
+    "name_en": "Kaysen RX-A12 12-String Acoustic Guitar Strings Set (10-45)"
+  },
+  {
+    "sku": "RM-302871",
+    "name": "The Rose RX-C30 Klassik Gitara üçün Neylon Simlər Dəsti",
+    "name_ru": "The Rose RX-C30 Комплект нейлоновых струн для классической гитары",
+    "name_en": "The Rose RX-C30 Classical Guitar Nylon Strings Set"
+  },
+  {
+    "sku": "RM-607857",
+    "name": "The Rose RX-E30 Elektro Gitara üçün Nikel Simlər Dəsti (009-042)",
+    "name_ru": "The Rose RX-E30 Комплект струн для электрогитары Nickel Wound (009-042)",
+    "name_en": "The Rose RX-E30 Electric Guitar Strings Set Nickel Wound (009-042)"
+  },
+  {
+    "sku": "RM-718363",
+    "name": "Kaysen RX-B30-4 Bas Gitara üçün Simlər Dəsti 4-Simli (45-100)",
+    "name_ru": "Kaysen RX-B30-4 Комплект струн для 4-струнной бас-гитары (45-100)",
+    "name_en": "Kaysen RX-B30-4 4-String Bass Guitar Strings Set (45-100)"
+  },
+  {
+    "sku": "RM-675275",
+    "name": "Kaysen RX-B30-5 Bas Gitara üçün Simlər Dəsti 5-Simli (45-130)",
+    "name_ru": "Kaysen RX-B30-5 Комплект струн для 5-струнной бас-гитары (45-130)",
+    "name_en": "Kaysen RX-B30-5 5-String Bass Guitar Strings Set (45-130)"
+  },
+  {
+    "sku": "RM-136905",
+    "name": "Kaysen RS-GP103 Təbii Qara Zamşa Gitara Kəməri (Möhkəm)",
+    "name_ru": "Kaysen RS-GP103 Ремень гитарный замшевый мягкий Black (Кожа/Замша)",
+    "name_en": "Kaysen RS-GP103 Genuine Suede Leather Guitar Strap Black"
+  },
+  {
+    "sku": "RM-516602",
+    "name": "Kaysen RS-GP106 Təbii Qəhvəyi Dəri Gitara Kəməri (41-55\")",
+    "name_ru": "Kaysen RS-GP106 Ремень гитарный из натуральной кожи Brown (Длина 41-55\")",
+    "name_en": "Kaysen RS-GP106 Genuine Leather Guitar Strap Brown (41-55\")"
+  },
+  {
+    "sku": "RM-944137",
+    "name": "Kaysen RS-G10 Hörmə Neylon Gitara Kəməri Dəri Ucluqla",
+    "name_ru": "Kaysen RS-G10 Ремень гитарный плетеный нейлоновый с кожаными наконечниками",
+    "name_en": "Kaysen RS-G10 Woven Nylon Guitar Strap with Leather Ends"
+  },
+  {
+    "sku": "RM-549921",
+    "name": "Kaysen RS-G07 Elektro Gitara Kəməri (Skeleton Design)",
+    "name_ru": "Kaysen RS-G07 Ремень для электрогитары сверхпрочный (Skeleton Design)",
+    "name_en": "Kaysen RS-G07 Heavy Duty Electric Guitar Strap Skeleton"
+  },
+  {
+    "sku": "RM-252414",
+    "name": "Kaysen RS-G06 Pambıq Naxışlı Rəngli Gitara Kəməri",
+    "name_ru": "Kaysen RS-G06 Ремень хлопковый цветной с кожаными наконечниками",
+    "name_en": "Kaysen RS-G06 Cotton Jacquard Guitar Strap with Leather Ends"
+  },
+  {
+    "sku": "RM-132270",
+    "name": "Kaysen RS-G05 Rəngli Zolaqlı Pambıq Gitara Kəməri",
+    "name_ru": "Kaysen RS-G05 Ремень полосатый хлопковый с кожаными концами",
+    "name_en": "Kaysen RS-G05 Striped Cotton Guitar Strap"
+  },
+  {
+    "sku": "RM-285869",
+    "name": "Kaysen RS-G01 Sadə Qara Neylon Gitara Kəməri",
+    "name_ru": "Kaysen RS-G01 Простой черный нейлоновый гитарный ремень",
+    "name_en": "Kaysen RS-G01 Basic Black Nylon Guitar Strap"
+  },
+  {
+    "sku": "RM-146628",
+    "name": "Kaysen RC-B Parça İplə Hörülmüş İnstrumenal Kabel Jack-Jack 3 m",
+    "name_ru": "Kaysen RC-B Инструментальный кабель Jack 6.35 мм в тканевой оплетке 3 м",
+    "name_en": "Kaysen RC-B Braided Cloth Guitar Instrument Cable Jack-Jack 3m"
+  },
+  {
+    "sku": "RM-241798",
+    "name": "Kaysen RC-B Parça İplə Hörülmüş İnstrumenal Kabel Jack-Jack 5 m",
+    "name_ru": "Kaysen RC-B Инструментальный кабель Jack 6.35 мм в тканевой оплетке 5 м",
+    "name_en": "Kaysen RC-B Braided Cloth Guitar Instrument Cable Jack-Jack 5m"
+  },
+  {
+    "sku": "RM-284879",
+    "name": "Kaysen RC-B Parça İplə Hörülmüş İnstrumenal Kabel Jack-Jack 10 m",
+    "name_ru": "Kaysen RC-B Инструментальный кабель Jack 6.35 мм в тканевой оплетке 10 м",
+    "name_en": "Kaysen RC-B Braided Cloth Guitar Instrument Cable Jack-Jack 10m"
+  },
+  {
+    "sku": "RM-835036",
+    "name": "Kaysen RC-E Standart Ekranlaşdırılmış İnstrumental Kabel Jack-Jack 3 m",
+    "name_ru": "Kaysen RC-E Инструментальный кабель Jack-Jack экранированный 3 м",
+    "name_en": "Kaysen RC-E Shielded Guitar Instrument Cable Jack-Jack 3m"
+  },
+  {
+    "sku": "RM-262842",
+    "name": "Kaysen RC-E Standart Ekranlaşdırılmış İnstrumental Kabel Jack-Jack 5 m",
+    "name_ru": "Kaysen RC-E Инструментальный кабель Jack-Jack экранированный 5 м",
+    "name_en": "Kaysen RC-E Shielded Guitar Instrument Cable Jack-Jack 5m"
+  },
+  {
+    "sku": "RM-570574",
+    "name": "Kaysen RC-E Standart Ekranlaşdırılmış İnstrumental Kabel Jack-Jack 10 m",
+    "name_ru": "Kaysen RC-E Инструментальный кабель Jack-Jack экранированный 10 м",
+    "name_en": "Kaysen RC-E Shielded Guitar Instrument Cable Jack-Jack 10m"
+  },
+  {
+    "sku": "RM-519691",
+    "name": "Kaysen RC-G Yaylı Elastik İnstrumental Gitara Kabeli 5 m Sarı",
+    "name_ru": "Kaysen RC-G Витой пружинный гитарный кабель 5 м Yellow",
+    "name_en": "Kaysen RC-G Coiled Spring Guitar Cable 5m Yellow"
+  },
+  {
+    "sku": "RM-171492",
+    "name": "Kaysen RC-G Yaylı Elastik İnstrumental Gitara Kabeli 5 m Bənövşəyi",
+    "name_ru": "Kaysen RC-G Витой пружинный гитарный кабель 5 м Purple",
+    "name_en": "Kaysen RC-G Coiled Spring Guitar Cable 5m Purple"
+  },
+  {
+    "sku": "RM-684311",
+    "name": "Kaysen RC-G Yaylı Elastik İnstrumental Gitara Kabeli 5 m Qara",
+    "name_ru": "Kaysen RC-G Витой пружинный гитарный кабель 5 м Black",
+    "name_en": "Kaysen RC-G Coiled Spring Guitar Cable 5m Black"
+  },
+  {
+    "sku": "RM-949000",
+    "name": "Kaysen RC-G Yaylı Elastik İnstrumental Gitara Kabeli 5 m Yaşıl",
+    "name_ru": "Kaysen RC-G Витой пружинный гитарный кабель 5 м Green",
+    "name_en": "Kaysen RC-G Coiled Spring Guitar Cable 5m Green"
+  },
+  {
+    "sku": "RM-100546",
+    "name": "Kaysen RP-H30 Təbii Dəri Mizrab Qabı Açarlıq",
+    "name_ru": "Kaysen RP-H30 Брелок-чехол для медиаторов из натуральной кожи",
+    "name_en": "Kaysen RP-H30 Genuine Leather Guitar Pick Holder Keychain"
+  },
+  {
+    "sku": "RM-166162",
+    "name": "Gidoo RP-D02 Kəmər Düymələri Vintlər və Şaybalarla (Cüt, Nikel)",
+    "name_ru": "Gidoo RP-D02 Пуговицы для ремня металлические с крепежом (Пара, Nickel)",
+    "name_en": "Gidoo RP-D02 Metal Guitar Strap Buttons with Screws (Pair, Nickel)"
+  },
+  {
+    "sku": "RM-960023",
+    "name": "Gidoo RP-J10 Akustik Gitara üçün Rozetka İçi Nəmləndirici",
+    "name_ru": "Gidoo RP-J10 Увлажнитель для акустической гитары в розетку",
+    "name_en": "Gidoo RP-J10 Soundhole Guitar Humidifier"
+  },
+  {
+    "sku": "RM-107619",
+    "name": "Gidoo RP-E02 Standart Plastik Sim Buran Alət",
+    "name_ru": "Gidoo RP-E02 Вертушка для быстрой намотки струн пластиковая",
+    "name_en": "Gidoo RP-E02 Standard Plastic Guitar String Winder"
+  },
+  {
+    "sku": "RM-160847",
+    "name": "Gidoo RP-E03 Sancaq Çıxaranlı Peşəkar Sim Buran Alət",
+    "name_ru": "Gidoo RP-E03 Вертушка для струн со съемником пинов бриджа",
+    "name_en": "Gidoo RP-E03 Professional Guitar String Winder & Bridge Pin Puller"
+  },
+  {
+    "sku": "RM-749563",
+    "name": "Gidoo RP-F20 Musiqi Alətləri üçün Təmizləyici Mikrofiber Dəsmal",
+    "name_ru": "Gidoo RP-F20 Салфетка полировочная из микрофибры для инструментов",
+    "name_en": "Gidoo RP-F20 Microfiber Instrument Polishing Cloth"
+  },
+  {
+    "sku": "RM-610508",
+    "name": "Gidoo RP-C01 Akustik Gitara üçün Plastik Üst Xərək Qara (43 mm)",
+    "name_ru": "Gidoo RP-C01 Верхний порожек для акустической гитары пластиковый 43 мм Black",
+    "name_en": "Gidoo RP-C01 Plastic Acoustic Guitar Top Nut 43mm Black"
+  },
+  {
+    "sku": "RM-880495",
+    "name": "Gidoo RP-C01 Akustik Gitara üçün Plastik Üst Xərək Ağ (43 mm)",
+    "name_ru": "Gidoo RP-C01 Верхний порожек для акустической гитары пластиковый 43 мм White",
+    "name_en": "Gidoo RP-C01 Plastic Acoustic Guitar Top Nut 43mm White"
+  },
+  {
+    "sku": "RM-831330",
+    "name": "Gidoo RP-C02 Akustik Gitara üçün Plastik Alt Xərək Ağ (72 mm)",
+    "name_ru": "Gidoo RP-C02 Нижний порожек для акустической гитары пластиковый 72 мм White",
+    "name_en": "Gidoo RP-C02 Plastic Acoustic Guitar Bridge Saddle 72mm White"
+  },
+  {
+    "sku": "RM-645674",
+    "name": "Gidoo RP-C07 Klassik Gitara üçün Təbii Sümük Üst Xərək (52 mm)",
+    "name_ru": "Gidoo RP-C07 Верхний порожек для классической гитары костяной 52 мм",
+    "name_en": "Gidoo RP-C07 Genuine Bone Classical Guitar Top Nut 52mm"
+  },
+  {
+    "sku": "RM-493195",
+    "name": "Gidoo RP-C08 Klassik Gitara üçün Təbii Sümük Alt Xərək (80 mm)",
+    "name_ru": "Gidoo RP-C08 Нижний порожек для классической гитары костяной 80 мм",
+    "name_en": "Gidoo RP-C08 Genuine Bone Classical Guitar Bridge Saddle 80mm"
+  },
+  {
+    "sku": "RM-880495",
+    "name": "Gidoo RP-C09 Akustik Gitara üçün Təbii Sümük Üst Xərək (43 mm)",
+    "name_ru": "Gidoo RP-C09 Верхний порожек для акустической гитары костяной 43 мм",
+    "name_en": "Gidoo RP-C09 Genuine Bone Acoustic Guitar Top Nut 43mm"
+  },
+  {
+    "sku": "RM-724301",
+    "name": "Gidoo RP-C10 Akustik Gitara üçün Təbii Sümük Alt Xərək (72 mm)",
+    "name_ru": "Gidoo RP-C10 Нижний порожек для акустической гитары костяной 72 мм",
+    "name_en": "Gidoo RP-C10 Genuine Bone Acoustic Guitar Bridge Saddle 72mm"
+  },
+  {
+    "sku": "RM-209227",
+    "name": "Gidoo RP-C05 Akustik Gitara Körpüsü üçün Nöqtəli Sim Bərkidici Pimlər",
+    "name_ru": "Gidoo RP-C05 Пины-фиксаторы струн бриджа акустической гитары (Комплект)",
+    "name_en": "Gidoo RP-C05 Acoustic Guitar Bridge End Pins Set with Dot"
+  },
+  {
+    "sku": "RM-422848",
+    "name": "Kaysen RP-B09 Klassik Gitara Aşıqları Plankada 3-Lövhəli Gold",
+    "name_ru": "Kaysen RP-B09 Колковая механика для классической гитары на планке Gold",
+    "name_en": "Kaysen RP-B09 Classical Guitar Tuning Pegs Plated Machine Heads Gold"
+  },
+  {
+    "sku": "RM-572203",
+    "name": "Kaysen RP-B15 Klassik Gitara üçün Naxışlı VIP Aşıqlar Gold/Black",
+    "name_ru": "Kaysen RP-B15 Премиальная колковая механика для классики Gold/Black",
+    "name_en": "Kaysen RP-B15 Luxury Engraved Classical Guitar Tuners Gold/Black"
+  },
+  {
+    "sku": "RM-965752",
+    "name": "Kaysen RP-B08 Klassik Gitara Aşıqları 3-Lövhəli Nikel",
+    "name_ru": "Kaysen RP-B08 Колковая механика для классической гитары 3-в-ряд Nickel",
+    "name_en": "Kaysen RP-B08 Classical Guitar Tuning Pegs on Plate Nickel"
+  },
+  {
+    "sku": "RM-329694",
+    "name": "Kaysen RP-B05 Akustik Gitara Aşıqları 3-Lövhəli Açıq Mexanizm",
+    "name_ru": "Kaysen RP-B05 Колковая механика для акустической гитары открытая 3-в-ряд",
+    "name_en": "Kaysen RP-B05 Open-Gear Acoustic Guitar Tuning Pegs on Plate"
+  },
+  {
+    "sku": "RM-186577",
+    "name": "Gidoo RP-B04 Akustik Gitara üçün Tək Qapalı Aşıqlar (3L+3R, Ağ başlıqlı)",
+    "name_ru": "Gidoo RP-B04 Колки для акустической гитары литые закрытые (3L+3R, White)",
+    "name_en": "Gidoo RP-B04 Sealed Die-Cast Acoustic Guitar Tuners (3L+3R, White)"
+  },
+  {
+    "sku": "RM-101221",
+    "name": "Kaysen RP-B02 Elektro Gitara üçün Qapalı Tökmə Aşıqlar Chrome (6L)",
+    "name_ru": "Kaysen RP-B02 Колки для электрогитары литые герметичные Chrome (6L)",
+    "name_en": "Kaysen RP-B02 Sealed Die-Cast Electric Guitar Tuning Pegs Chrome (6L)"
+  },
+  {
+    "sku": "RM-159609",
+    "name": "Kaysen RP-B03 Elektro Gitara üçün Qapalı Tökmə Aşıqlar (3L+3R)",
+    "name_ru": "Kaysen RP-B03 Колки для электрогитары литые герметичные (3L+3R)",
+    "name_en": "Kaysen RP-B03 Sealed Die-Cast Electric Guitar Machine Heads (3L+3R)"
+  },
+  {
+    "sku": "RM-305580",
+    "name": "Kaysen RP-B06 Elektro Gitara üçün İncə Dəqiqlikli Aşıqlar Chrome",
+    "name_ru": "Kaysen RP-B06 Колки для электрогитары литые высокоточные Chrome",
+    "name_en": "Kaysen RP-B06 Precision Die-Cast Electric Guitar Tuners Chrome"
+  },
+  {
+    "sku": "RM-849514",
+    "name": "Kaysen RP-B07 Elektro Gitara üçün Qara Tökmə Aşıqlar Black (6L)",
+    "name_ru": "Kaysen RP-B07 Колки для электрогитары литые Black (6L)",
+    "name_en": "Kaysen RP-B07 Sealed Die-Cast Electric Guitar Tuners Black (6L)"
+  },
+  {
+    "sku": "RM-201818",
+    "name": "Kaysen RP-B20 Bas Gitara üçün Ənənəvi Açıq Aşıqlar Clover Leaf (Chrome)",
+    "name_ru": "Kaysen RP-B20 Колки для бас-гитары открытые лепестковые Chrome",
+    "name_en": "Kaysen RP-B20 Open-Gear Bass Guitar Tuning Keys Clover Leaf Chrome"
+  },
+  {
+    "sku": "RM-649670",
+    "name": "Kaysen RP-B21 Bas Gitara üçün Qara Ənənəvi Aşıqlar Clover Leaf Black",
+    "name_ru": "Kaysen RP-B21 Колки для бас-гитары открытые лепестковые Black",
+    "name_en": "Kaysen RP-B21 Open-Gear Bass Guitar Tuning Keys Clover Leaf Black"
+  },
+  {
+    "sku": "RM-205586",
+    "name": "Gidoo RP-U4 Ukulele üçün Kiçik Aşıqlar Dəsti (2L+2R, Ağ düyməli)",
+    "name_ru": "Gidoo RP-U4 Колки для укулеле открытые миниатюрные (Комплект 2L+2R)",
+    "name_en": "Gidoo RP-U4 Mini Open-Gear Ukulele Tuning Pegs Set (2L+2R)"
+  },
+  {
+    "sku": "RM-540271",
+    "name": "Gidoo Floyd Rose İki-Tərəfli Kilidli Tremolo Körpü Sistemi (Top-lock ilə)",
+    "name_ru": "Gidoo FR-Bridge Тремоло-система Floyd Rose Double-Locking (С топ-локом)",
+    "name_en": "Gidoo Floyd Rose Double-Locking Tremolo Bridge System with Nut"
+  },
+  {
+    "sku": "RM-200248",
+    "name": "Gidoo 4-Simli Bas Gitara üçün Təbii Sümük Üst Xərək",
+    "name_ru": "Gidoo Bone Nut Верхний порожек из натуральной кости для 4-струнного баса",
+    "name_en": "Gidoo Genuine Bone Top Nut for 4-String Bass Guitar"
+  },
+  {
+    "sku": "RM-209859",
+    "name": "Gidoo 5-Simli Bas Gitara üçün Təbii Sümük Üst Xərək",
+    "name_ru": "Gidoo Bone Nut Верхний порожек из натуральной кости для 5-струнного баса",
+    "name_en": "Gidoo Genuine Bone Top Nut for 5-String Bass Guitar"
+  },
+  {
+    "sku": "RM-200172",
+    "name": "Gidoo 6-Simli Bas Gitara üçün Təbii Sümük Üst Xərək",
+    "name_ru": "Gidoo Bone Nut Верхний порожек из натуральной кости для 6-струнного баса",
+    "name_en": "Gidoo Genuine Bone Top Nut for 6-String Bass Guitar"
+  },
+  {
+    "sku": "RM-200463",
+    "name": "Gidoo Ukulele üçün Üst Xərək (Sümük)",
+    "name_ru": "Gidoo Bone Nut Верхний порожек из натуральной кости для укулеле",
+    "name_en": "Gidoo Genuine Bone Top Nut for Ukulele"
+  },
+  {
+    "sku": "RM-200398",
+    "name": "Gidoo Ukulele Körpüsü üçün Alt Xərək (Sümük)",
+    "name_ru": "Gidoo Bone Saddle Нижний порожек из натуральной кости для укулеле",
+    "name_en": "Gidoo Genuine Bone Bridge Saddle for Ukulele"
+  }
+]
