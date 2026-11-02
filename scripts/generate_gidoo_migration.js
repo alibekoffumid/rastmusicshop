@@ -59,3 +59,4 @@ sqlLines.push('COMMIT;');
 const outPath = 'supabase/migrations/20261102_update_gidoo_titles.sql';
 fs.writeFileSync(outPath, sqlLines.join('\n'), 'utf8');
 console.log(`✓ Migration created at: ${outPath} (${(fs.statSync(outPath).size / 1024).toFixed(1)} KB)`);
+

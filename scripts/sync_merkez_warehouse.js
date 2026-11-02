@@ -567,8 +567,10 @@ export async function runProductSync() {
       brand: finalBrand,
       category_slug: rootCategorySlug,
       subcategory_slug: subcategorySlug,
-      image: p.image_url || '',
-      images: p.image_url ? [p.image_url] : [],
+      image: (factoryTitle && factoryTitle.image) ? factoryTitle.image : (p.image_url || ''),
+      images: (factoryTitle && Array.isArray(factoryTitle.images) && factoryTitle.images.length > 0)
+        ? factoryTitle.images
+        : (p.image_url ? [p.image_url] : []),
       specifications: specs.az || null,
       specifications_ru: specs.ru || null,
       specifications_en: specs.en || null,
