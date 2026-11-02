@@ -4,9 +4,21 @@ import { createClient } from '@supabase/supabase-js';
 import { CATEGORY_TAXONOMY } from '../src/data/categoryTaxonomy.js';
 import { getCategoryBySlug, getRootCategoryForSlug, normalizeCategorySlug } from '../src/utils/categoryHelper.js';
 
+function getEnvValue(key) {
+  if (process.env[key]) return process.env[key];
+  try {
+    const envPath = path.resolve('.env');
+    if (fs.existsSync(envPath)) {
+      const match = fs.readFileSync(envPath, 'utf8').match(new RegExp(`^${key}=["']?([^"'\r\n]+)["']?`, 'm'));
+      if (match) return match[1];
+    }
+  } catch {}
+  return '';
+}
+
 // Configuration
 const MERKEZ_URL = 'https://rvywrxnmgwwudihgrxdp.supabase.co';
-const MERKEZ_ANON_KEY = process.env.MERKEZ_ANON_KEY || Buffer.from('ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKemRYQmhZbUZ6WlNJc0luSmxaaUk2SW5KMmVYZHllRzV0WjNkM2RXUnBhR2R5ZUdSd0lpd2ljbTlzWlNJNkltRnViMjRpTENKcFlYUWlPakUzTnpVeU5qSXpOallzSW1WNGNDSTZNakE1TURnek9ETTJObjAuaUQzb3NPUnk3blI1d2xoanV5aVhLaUd0LTZzN1ZHcG1iZWltX0dIdzJ3SQ==', 'base64').toString('utf8');
+const MERKEZ_ANON_KEY = getEnvValue('MERKEZ_ANON_KEY');
 const MUSIC_STORE_USER_ID = '8929ea5f-d6b8-46e9-9873-dd67e65046f0';
 
 const WAREHOUSE_CATEGORY_MAP = {
